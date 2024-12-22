@@ -1,3 +1,8 @@
+body {
+  font-family: "Poppins", serif;
+
+}
+
 .fs-14 {
   font-size: 14px;
 }
@@ -12,17 +17,7 @@
 }
 
 .bg-linear {
-  background: linear-gradient(to right,
-      #000000,
-      #1a001f,
-      #330033,
-      #4d004d,
-      #660066,
-      #800080,
-      #990099,
-      #b300b3,
-      #cc00cc,
-      #e600e6);
+  background: linear-gradient(129deg, rgba(0, 0, 0, 1) 75%, rgba(87, 43, 129, 1) 100%, rgba(86, 26, 88, 1) 100%);
 }
 
 .text-color {
@@ -54,15 +49,15 @@
 .btn-login {
   background: #343a40b3;
   color: white;
-  border-radius: 20px;
-  padding: 5px 15px;
+  border-radius: 50px;
+  padding: 10px 23px;
 }
 
 .btn-get-started {
-  background: linear-gradient(97.2deg, #330166 -30.23%, #D60BDE 94.45%);
+  background: linear-gradient(80deg, rgba(42, 13, 45, 1) 0%, rgba(214, 11, 222, 1) 45%);
   color: white;
-  border-radius: 20px;
-  padding: 5px 15px;
+  border-radius: 50px;
+  padding: 10px 23px;
 }
 
 .btn-get-started:hover {
@@ -70,12 +65,9 @@
 }
 
 .search-container {
-  display: flex;
-  align-items: center;
+
   background-color: #2c223c;
-  border-radius: 25px;
-  padding: 6px 10px;
-  width: 485px;
+  border-radius: 50px;
 }
 
 .search-container input {
@@ -90,22 +82,13 @@
   color: #aaa;
 }
 
-.search-container button {
-  background-color: #a900ff;
-  color: #fff;
-  border: none;
-  border-radius: 20px;
-  padding: 12px 24px 12px 24px;
-  font-weight: 700;
-}
+
 
 .search-container button:hover {
   background-color: #9200e5;
 }
 
-.paragraf-width {
-  width: 55%;
-}
+
 
 .paragraf-width p {
   color: #A8AEBF;
@@ -126,6 +109,29 @@
   100% {
     transform: translateX(-100%);
   }
+}
+
+.business-card {
+  background: #363636;
+  padding: 4px;
+  /* transition: all 0.5s ease-out; */
+  transition: all 12s ease-in-out;
+
+}
+
+.business-card img {
+  height: 300px;
+
+}
+
+.business-card>div {
+  background-color: #363636;
+  padding: 12px;
+}
+
+.business-card:hover {
+
+  background: linear-gradient(80deg, rgba(42, 13, 45, 1) 0%, rgba(214, 11, 222, 1) 45%);
 }
 
 /* section three  */
