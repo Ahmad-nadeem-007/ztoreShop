@@ -1,5 +1,6 @@
 body {
   font-family: "Poppins", serif;
+  overflow-x: hidden;
 
 }
 
@@ -99,6 +100,7 @@ body {
 /* animation seconde section  */
 .animate-marquee {
   animation: marquee 16s linear infinite;
+  white-space: nowrap;
 }
 
 @keyframes marquee {
@@ -115,7 +117,6 @@ body {
   background: #363636;
   padding: 4px;
   /* transition: all 0.5s ease-out; */
-  transition: all 12s ease-in-out;
 
 }
 
@@ -130,6 +131,7 @@ body {
 }
 
 .business-card:hover {
+  transition: all 0.5s ease-in-out;
 
   background: linear-gradient(80deg, rgba(42, 13, 45, 1) 0%, rgba(214, 11, 222, 1) 45%);
 }
