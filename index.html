@@ -26,8 +26,22 @@
 
   <body>
     <section class="bg-linear">
-      <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container position-relative">
+        <img
+          src="./assets/image/hero-ventor1.png"
+          class="position-absolute z-0"
+          width="90"
+          style="top: 30%; left: 10%"
+          alt=""
+        />
+        <img
+          src="./assets/image/hero-ventor2.png"
+          class="position-absolute z-0"
+          width="90"
+          style="top: 35%; right: 10%"
+          alt=""
+        />
+        <nav class="navbar navbar-expand-lg navbar-dark position-relative z-1">
           <div class="container">
             <a class="navbar-brand" href="#"
               ><img src="./assets/image/logo.png" alt
@@ -76,21 +90,22 @@
           </div>
         </nav>
         <!-- section one  -->
-        <div class="row justify-content-center mt-5">
+        <div class="row justify-content-center mt-5 position-relative z-1">
           <div class="col-lg-8 col-md-12 col-12 mt-5">
-            <h1 class="text-white text-size text-center">
+            <h1 class="text-white text-size fw-semibold text-center">
               Make your <span class="text-color">dream</span>
               <span class="text-color-one">store</span> in 5 minutes
             </h1>
             <div class="paragraf-width m-auto text-center">
               <p>
-                Make your dream stores in just 5 minutes with our Platform at
+                Make your dream stores in just 5 minutes with <br /
+                class="d-none d-lg-block" /> our Platform at
                 <span class="text-color-one">₹199/Month.</span>
               </p>
             </div>
             <div class="d-flex justify-content-center mt-3">
               <div
-                class="search-container d-flex align-items-center gap-2 p-2 width-75"
+                class="search-container d-flex align-items-center gap-2 p-2 width-50"
               >
                 <img
                   src="./assets/image/search-md.png"
@@ -141,7 +156,7 @@
           </div>
         </div>
 
-        <div class="text-center mt-5 w-75 mx-auto">
+        <div class="text-center mt-5 w-75 mx-auto position-relative z-1">
           <img
             src="./assets/image/mainimage.png"
             alt="main image"
@@ -151,71 +166,87 @@
       </div>
     </section>
     <!-- section two  -->
-    <!-- <section class="bg-black py-5">
+    <section class="bg-black py-lg-5 py-md-5 py-sm-4 py-3">
       <div class="animate-marquee d-flex gap-4">
         <img src="./assets/image/marque-image.png" class="w-50" alt="" />
         <img src="./assets/image/marque-image.png" class="w-50" alt="" />
       </div>
-    </section> -->
+    </section>
     <!-- section three  -->
     <section class="bg-section-three text-center position-relative">
       <div class="container pb-5">
-        <h1 class="text-white fw-bold pt-4">
+        <h1 class="text-white fw-semibold pt-4">
           Solution for <span class="text-color-one">every business</span>
         </h1>
         <p class="bg-light-gray mb-0">Explore some examples</p>
 
-        <div class="row mt-5">
-          <div class="col-lg-3 col-md-6 col-12 mb-3">
+        <div class="row mt-5 justify-content-center">
+          <div class="col-lg-3 col-md-6 col-10 mb-3">
             <div class="business-card rounded-4">
               <div class="rounded-4">
-                <img
-                  src="./assets/image/businessCard-img.png"
-                  alt
-                  class="w-100 object-fit-cover rounded-4"
-                />
+                <div class="img-animation">
+                  <div>
+                    <img
+                      src="./assets/image/businessCard-img.png"
+                      alt
+                      class="w-100 object-fit-cover rounded-4"
+                    />
+                  </div>
+                </div>
                 <button class="btn-get-started border-0 mt-3 w-100">
                   Flower Shop
                 </button>
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 col-12 mb-3">
+          <div class="col-lg-3 col-md-6 col-10 mb-3">
             <div class="business-card rounded-4">
               <div class="rounded-4">
-                <img
-                  src="./assets/image/businessCard-img.png"
-                  alt
-                  class="w-100 object-fit-cover rounded-4"
-                />
+                <div class="img-animation">
+                  <div>
+                    <img
+                      src="./assets/image/businessCard-img.png"
+                      alt
+                      class="w-100 object-fit-cover rounded-4"
+                    />
+                  </div>
+                </div>
                 <button class="btn-get-started border-0 mt-3 w-100">
                   Flower Shop
                 </button>
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 col-12 mb-3">
+          <div class="col-lg-3 col-md-6 col-10 mb-3">
             <div class="business-card rounded-4">
               <div class="rounded-4">
-                <img
-                  src="./assets/image/businessCard-img.png"
-                  alt
-                  class="w-100 object-fit-cover rounded-4"
-                />
+                <div class="img-animation">
+                  <div>
+                    <img
+                      src="./assets/image/businessCard-img.png"
+                      alt
+                      class="w-100 object-fit-cover rounded-4"
+                    />
+                  </div>
+                </div>
                 <button class="btn-get-started border-0 mt-3 w-100">
                   Flower Shop
                 </button>
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 col-12 mb-3">
+          <div class="col-lg-3 col-md-6 col-10 mb-3">
             <div class="business-card rounded-4">
               <div class="rounded-4">
-                <img
-                  src="./assets/image/businessCard-img.png"
-                  alt
-                  class="w-100 object-fit-cover rounded-4"
-                />
+                <div class="img-animation">
+                  <div>
+                    <img
+                      src="./assets/image/businessCard-img.png"
+                      alt
+                      class="w-100 object-fit-cover rounded-4"
+                    />
+                  </div>
+                </div>
                 <button class="btn-get-started border-0 mt-3 w-100">
                   Flower Shop
                 </button>
@@ -227,9 +258,9 @@
     </section>
 
     <!-- section four  -->
-    <section class="bg-black text-center">
+    <section class="bg-black text-center pb-3">
       <div class="container">
-        <h1 class="text-white fw-bold pt-4">
+        <h1 class="text-white fw-semibold pt-4">
           What We <span class="text-color-one">Offer </span>
         </h1>
         <p class="bg-light-gray mb-0">A fully featured eCommerce Platform</p>
@@ -239,7 +270,6 @@
             <div class="col d-grid justify-content-center">
               <div
                 class="card bg-card-color text-start border-0 shadow rounded-3 py-1 p-4"
-                style="width: 22rem"
               >
                 <div class="icon">
                   <svg
@@ -302,7 +332,6 @@
             <div class="col d-grid justify-content-center">
               <div
                 class="card bg-card-color text-start border-0 shadow rounded-3 py-1 p-4"
-                style="width: 22rem"
               >
                 <div class="icon">
                   <svg
@@ -346,7 +375,6 @@
             <div class="col d-grid justify-content-center">
               <div
                 class="card bg-card-color text-start border-0 shadow rounded-3 py-1 p-4"
-                style="width: 22rem"
               >
                 <div class="icon">
                   <svg
@@ -390,7 +418,6 @@
             <div class="col d-grid justify-content-center">
               <div
                 class="card bg-card-color text-start border-0 shadow rounded-3 py-1 p-4"
-                style="width: 22rem"
               >
                 <div class="icon">
                   <svg
@@ -464,7 +491,6 @@
             <div class="col d-grid justify-content-center">
               <div
                 class="card bg-card-color text-start border-0 shadow rounded-3 py-1 p-4"
-                style="width: 22rem"
               >
                 <div class="icon">
                   <svg
@@ -508,7 +534,6 @@
         </div>
         <div class="scrollable-row-container mt-3">
           <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 flex-nowrap">
-           
             <div class="col d-grid justify-content-center">
               <div
                 class="card bg-card-color text-start border-0 shadow rounded-3 py-1 p-4"
@@ -787,7 +812,7 @@
       <div class="container pt-5">
         <div class="row">
           <div class="col-lg-6 col-md-12 col-12">
-            <h1 class="text-white fs-48">
+            <h1 class="text-white fw-semibold fs-48">
               Apply your <span class="text-color">own theming </span>decisions.
             </h1>
             <p class="bg-light-gray mb-4 fs-20">
@@ -806,7 +831,7 @@
             <img src="./assets/image/Group2.png" class="w-100" alt />
           </div>
           <div class="col-lg-6 col-md-12 col-12">
-            <h1 class="text-white fs-48 mt-lg-0 mt-3">
+            <h1 class="text-white fw-semibold fs-48 mt-lg-0 mt-3">
               Export your <span class="text-color">store reports</span>in a
               second
             </h1>
@@ -825,11 +850,11 @@
     </section>
 
     <!-- section six   -->
-   <section class="bg-black pt-5">
+    <section class="bg-black pt-5">
       <div class="container">
         <div class="row text-center justify-content-center">
           <div class="">
-            <h1 class="text-white fw-bold pt-4 fs-48">
+            <h1 class="text-white fw-semibold pt-4 fs-48">
               Get started with a Welcome <br />plan and
               <span class="text-color-one">start business </span>
             </h1>
@@ -1089,13 +1114,13 @@
         </div>
       </div>
     </section>
-   
+
     <!-- section saveen  -->
     <section class="bg-black pt-5 pb-5">
       <div class="container-fluid p-0">
         <div class="row text-center justify-content-center">
           <div class="col">
-            <h1 class="text-white fw-bold pt-4">
+            <h1 class="text-white fw-semibold pt-4">
               What our customers<span class="text-color-one"> are saying </span>
             </h1>
             <p class="bg-light-gray mt-2">
@@ -1260,13 +1285,13 @@
           </div>
         </div>
       </div>
-    </section> 
+    </section>
     <!-- section eight  -->
-     <section class="bg-black pb-5">
+    <section class="bg-black pb-5">
       <div class="container">
         <div class="row text-center justify-content-center">
           <div class="col-lg-7 col-md-10 col-12">
-            <h1 class="text-white fw-bold pt-4 fs-48">
+            <h1 class="text-white fw-semibold pt-4 fs-48">
               Frequently<span class="text-color-one"> asked questions </span>
             </h1>
             <p class="bg-light-gray mt-2 fs-20">
@@ -1452,10 +1477,9 @@
 
     <!-- footer  -->
 
-     <footer class="text-light pt-5 pb-4">
+    <footer class="text-light pt-5 pb-4">
       <div class="container rounded-4">
         <div class="row">
-       
           <div class="col-lg-5 col-md-6 mb-4">
             <div class="">
               <img src="./assets/image/logo.png" alt="" />
@@ -1490,7 +1514,6 @@
             <p class="mt-2">Made In : India</p>
           </div>
 
-          
           <div class="col-lg-2 col-md-6 mb-4">
             <h5 class="text-uppercase fw-bold fs-24">Link</h5>
             <ul class="list-unstyled">
@@ -1511,7 +1534,6 @@
             </ul>
           </div>
 
-        
           <div class="col-lg-3 col-md-6 mb-4">
             <h5 class="text-uppercase fw-bold fs-24">Address</h5>
             <p>
@@ -1524,7 +1546,6 @@
           </div>
         </div>
 
- 
         <div class="text-center mt-4">
           <p class="m-0">
             © Milestone Technology Solution Private Limited. All Rights
@@ -1532,7 +1553,7 @@
           </p>
         </div>
       </div>
-    </footer> 
+    </footer>
 
     <!-- Bootstrap 5 JavaScript (Local) -->
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
