@@ -7,6 +7,11 @@ body {
   scroll-behavior: smooth;
 }
 
+html {
+  overflow-x: hidden;
+
+}
+
 * {
   box-sizing: border-box;
 }
@@ -61,19 +66,18 @@ body {
 }
 
 .bg-linear {
-  background: linear-gradient(
-    129deg,
-    rgba(0, 0, 0, 1) 75%,
-    rgba(87, 43, 129, 1) 100%,
-    rgba(86, 26, 88, 1) 100%
-  );
+  background: linear-gradient(129deg,
+      rgba(0, 0, 0, 1) 75%,
+      rgba(87, 43, 129, 1) 100%,
+      rgba(86, 26, 88, 1) 100%);
 }
-.bg-image-linear{
+
+.bg-image-linear {
   background-image: url(../image/Desktop-3.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
 }
 
 .text-color {
@@ -96,16 +100,19 @@ body {
 .navbar-nav .nav-link {
   color: #e6e6e6;
 }
-.mt-8{
+
+.mt-8 {
   margin-top: 4rem;
 }
 
 .navbar-nav .nav-link:hover {
   color: var(--Primary-P6---BASE, #d60bde);
 }
-.active{
+
+.active {
   color: var(--Primary-P6---BASE, #d60bde) !important;
 }
+
 .btn-login {
   background: #343a40b3 !important;
   color: white !important;
@@ -115,70 +122,66 @@ body {
 }
 
 .login-hover:hover {
-  background: linear-gradient(
-    80deg,
-    rgba(42, 13, 45, 1) 0%,
-    rgba(214, 11, 222, 1) 45%
-  );
+  background: linear-gradient(80deg,
+      rgba(42, 13, 45, 1) 0%,
+      rgba(214, 11, 222, 1) 45%);
   transition: all 0.5s ease-in-out;
   border-radius: 50px;
   padding: 10px 23px;
 }
-.btn-started:hover{
+
+.btn-started:hover {
   background-color: rgb(68, 66, 66);
   border-radius: 50px;
   padding: 10px 23px;
   color: white;
 }
 
-.btn-get-started-shop{
+.btn-get-started-shop {
   background-color: rgb(68, 66, 66);
   border-radius: 50px;
   padding: 10px 23px;
   color: white;
 }
-.shop-hover:hover{
-  background: linear-gradient(
-    80deg,
-    rgba(42, 13, 45, 1) 0%,
-    rgba(214, 11, 222, 1) 45%
-  );
+
+.shop-hover:hover {
+  background: linear-gradient(80deg,
+      rgba(42, 13, 45, 1) 0%,
+      rgba(214, 11, 222, 1) 45%);
   color: white !important;
   border-radius: 50px;
   padding: 10px 23px;
 }
+
 .btn-get-started-promotion {
-  background: linear-gradient(
-    80deg,
-    rgba(42, 13, 45, 1) 0%,
-    rgba(214, 11, 222, 1) 45%
-  );
+  background: linear-gradient(80deg,
+      rgba(42, 13, 45, 1) 0%,
+      rgba(214, 11, 222, 1) 45%);
   color: white !important;
   border-radius: 50px;
 }
 
 .btn-get-started {
-  background: linear-gradient(
-    80deg,
-    rgba(42, 13, 45, 1) 0%,
-    rgba(214, 11, 222, 1) 45%
-  );
+  background: linear-gradient(80deg,
+      rgba(42, 13, 45, 1) 0%,
+      rgba(214, 11, 222, 1) 45%);
   color: white !important;
   border-radius: 50px;
   padding: 10px 23px;
 }
+
 .btn-get-started:hover {
-  background: linear-gradient(
-    80deg,
-    rgba(42, 13, 45, 1) 0%,
-    rgba(214, 11, 222, 1) 45%
-  );  border-radius: 50px;
+  background: linear-gradient(80deg,
+      rgba(42, 13, 45, 1) 0%,
+      rgba(214, 11, 222, 1) 45%);
+  border-radius: 50px;
   padding: 10px 23px;
   color: white;
 }
+
 .text-gradient {
   background: linear-gradient(90deg, #d20bd2, #55057e);
-  background-clip: text; 
+  background-clip: text;
   color: transparent;
 }
 
@@ -189,13 +192,16 @@ body {
 .animation-img-1 {
   animation: shape1 8s linear infinite;
 }
+
 .animate-img-2 {
   animation: shape2 22s infinite alternate;
   transform: translate(-50%, -50%);
 }
+
 .animation-img-3 {
   animation: shape1 8s linear infinite;
 }
+
 .animate-img-4 {
   animation: shape1 8s infinite alternate;
   /* transform: translate(-50%, -50%); */
@@ -223,7 +229,7 @@ body {
 
 
 .search-container {
-  background-color: #31223A ;
+  background-color: #31223A;
   border: 4px solid #21132A !important;
   border-radius: 50px;
 }
@@ -275,21 +281,19 @@ body {
   height: 300px;
 }
 
-.business-card > div {
+.business-card>div {
   background-color: #363636;
   padding: 12px;
 }
 
 .business-card:hover {
   transition: all 0.5s ease-in-out;
-  background: linear-gradient(
-    80deg,
-    rgba(42, 13, 45, 1) 0%,
-    rgba(214, 11, 222, 1) 45%
-  );
+  background: linear-gradient(80deg,
+      rgba(42, 13, 45, 1) 0%,
+      rgba(214, 11, 222, 1) 45%);
 }
 
-.business-card .img-animation > div {
+.business-card .img-animation>div {
   height: 270px;
   overflow: hidden;
   border-radius: 20px;
@@ -301,16 +305,15 @@ body {
   /* Smooth animation added */
 }
 
-.business-card:hover .shop-hover{
-  background: linear-gradient(
-    80deg,
-    rgba(42, 13, 45, 1) 0%,
-    rgba(214, 11, 222, 1) 45%
-  );
+.business-card:hover .shop-hover {
+  background: linear-gradient(80deg,
+      rgba(42, 13, 45, 1) 0%,
+      rgba(214, 11, 222, 1) 45%);
   color: white !important;
   border-radius: 50px;
   padding: 10px 23px;
 }
+
 .business-card:hover .img-animation img {
   transform: translateY(-30px);
   /* Image scroll effect */
@@ -332,6 +335,11 @@ body {
 .bg-card-color {
   transition: transform 0.5s ease-in-out;
   background-color: #1f1f1f;
+  padding: 25px 20px !important;
+}
+
+.bg-card-color p {
+  color: #A8AEBF;
 }
 
 .card .icon {
@@ -380,9 +388,10 @@ body {
 }
 
 /* section six  */
-.textGray{
+.textGray {
   font-weight: 200;
 }
+
 .pricing-card {
   background-color: #1f1f1f;
   color: white;
@@ -391,7 +400,8 @@ body {
   /* max-width: 300px; */
   /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
 }
-.pricing-card:hover{
+
+.pricing-card:hover {
   background: linear-gradient(to top, black, rgb(54, 5, 54));
 }
 
@@ -413,11 +423,9 @@ body {
 .pricing-shadow-no-hover {
   padding: 2px;
   border-radius: 8px;
-  background: linear-gradient(
-   to right,
-    rgb(84, 2, 100), 
-    rgb(16, 2, 95) 
-  );
+  background: linear-gradient(to right,
+      rgb(84, 2, 100),
+      rgb(16, 2, 95));
 }
 
 /* sdfjlsdfs */
@@ -429,20 +437,16 @@ body {
 }
 
 .pricing-shadow:hover {
-  background: linear-gradient(
-    to right,
-    rgb(84, 2, 100),
-    rgb(16, 2, 95)
-  );
+  background: linear-gradient(to right,
+      rgb(84, 2, 100),
+      rgb(16, 2, 95));
 }
 
 /* Active background when accordion is open */
 .pricing-shadow:has(.accordion-collapse.show) {
-  background: linear-gradient(
-    to right,
-    rgb(84, 2, 100),
-    rgb(16, 2, 95)
-  );
+  background: linear-gradient(to right,
+      rgb(84, 2, 100),
+      rgb(16, 2, 95));
 }
 
 /* sdfjlsdfs */
@@ -493,10 +497,11 @@ body {
   margin-top: 10px;
 }
 
-.textGrey{
+.textGrey {
   color: rgb(176, 171, 171);
   font-weight: 300;
 }
+
 .btn-custom:hover {
   background: linear-gradient(97.2deg, #330166 -30.23%, #d60bde 94.45%);
 }
@@ -533,6 +538,7 @@ body {
   display: none;
   /* Hide scrollbar in WebKit browsers */
 }
+
 .testimonial-card {
   background-color: #1f1f1f;
   color: white;
@@ -645,7 +651,8 @@ footer p {
 }
 
 footer .container {
-  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;  padding: 32px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  padding: 32px;
 }
 
 .list-unstyled li a {
@@ -658,17 +665,17 @@ footer .container {
 .card-offer {
   background-color: #222222;
 }
+
 .card-offer:hover {
   transition: all 0.5s ease-in-out;
-  background: linear-gradient(
-to top,    rgb(7, 0, 8),
-    rgb(40, 4, 41) 
-  );
+  background: linear-gradient(to top, rgb(7, 0, 8),
+      rgb(40, 4, 41));
 }
 
-.fw{
+.fw {
   font-weight: 300;
 }
+
 .offer-gray {
   color: #f0f1f5;
 }
@@ -679,11 +686,9 @@ to top,    rgb(7, 0, 8),
 
 .offer-shadow:hover {
   transition: all 0.5s ease-in-out;
-  background: linear-gradient(
-    80deg,
-    rgba(42, 13, 45, 1) 0%,
-    rgba(214, 11, 222, 1) 45%
-  );
+  background: linear-gradient(80deg,
+      rgba(42, 13, 45, 1) 0%,
+      rgba(214, 11, 222, 1) 45%);
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
@@ -720,6 +725,7 @@ to top,    rgb(7, 0, 8),
   .fs-40 {
     font-size: 20px;
   }
+
   .testimonial-card {
     width: 18rem;
   }
@@ -727,13 +733,13 @@ to top,    rgb(7, 0, 8),
 
 
 /* up and down image animation  */
-.box{
-  width:100px;
-  height:100px;
-  background:#000;
+.box {
+  width: 100px;
+  height: 100px;
+  background: #000;
 }
 
-.up-down{
+.up-down {
   animation: up-down linear 4s;
   animation-iteration-count: infinite;
   transform-origin: 50% 50%;
@@ -751,92 +757,112 @@ to top,    rgb(7, 0, 8),
   -ms-transform-origin: 50% 50%;
 }
 
-@keyframes up-down{
+@keyframes up-down {
   0% {
-    transform:  translate(1px,20px)  ;
+    transform: translate(1px, 20px);
   }
+
   24% {
-    transform:  translate(1px,30px)  ;
+    transform: translate(1px, 30px);
   }
+
   50% {
-    transform:  translate(1px,12px)  ;
+    transform: translate(1px, 12px);
   }
+
   74% {
-    transform:  translate(1px,22px)  ;
+    transform: translate(1px, 22px);
   }
+
   100% {
-    transform:  translate(1px,22px)  ;
+    transform: translate(1px, 22px);
   }
 }
 
-@-moz-keyframes up-down{
+@-moz-keyframes up-down {
   0% {
-    -moz-transform:  translate(1px,20px)  ;
+    -moz-transform: translate(1px, 20px);
   }
+
   24% {
-    -moz-transform:  translate(1px,30px)  ;
+    -moz-transform: translate(1px, 30px);
   }
+
   50% {
-    -moz-transform:  translate(1px,12px)  ;
+    -moz-transform: translate(1px, 12px);
   }
+
   74% {
-    -moz-transform:  translate(1px,22px)  ;
+    -moz-transform: translate(1px, 22px);
   }
+
   100% {
-    -moz-transform:  translate(1px,22px)  ;
+    -moz-transform: translate(1px, 22px);
   }
 }
 
 @-webkit-keyframes up-down {
   0% {
-    -webkit-transform:  translate(1px,20px)  ;
+    -webkit-transform: translate(1px, 20px);
   }
+
   24% {
-    -webkit-transform:  translate(1px,30px)  ;
+    -webkit-transform: translate(1px, 30px);
   }
+
   50% {
-    -webkit-transform:  translate(1px,12px)  ;
+    -webkit-transform: translate(1px, 12px);
   }
+
   74% {
-    -webkit-transform:  translate(1px,22px)  ;
+    -webkit-transform: translate(1px, 22px);
   }
+
   100% {
-    -webkit-transform:  translate(1px,22px)  ;
+    -webkit-transform: translate(1px, 22px);
   }
 }
 
 @-o-keyframes up-down {
   0% {
-    -o-transform:  translate(1px,20px)  ;
+    -o-transform: translate(1px, 20px);
   }
+
   24% {
-    -o-transform:  translate(1px,30px)  ;
+    -o-transform: translate(1px, 30px);
   }
+
   50% {
-    -o-transform:  translate(1px,12px)  ;
+    -o-transform: translate(1px, 12px);
   }
+
   74% {
-    -o-transform:  translate(1px,22px)  ;
+    -o-transform: translate(1px, 22px);
   }
+
   100% {
-    -o-transform:  translate(1px,22px)  ;
+    -o-transform: translate(1px, 22px);
   }
 }
 
 @-ms-keyframes up-down {
   0% {
-    -ms-transform:  translate(1px,20px)  ;
+    -ms-transform: translate(1px, 20px);
   }
+
   24% {
-    -ms-transform:  translate(1px,30px)  ;
+    -ms-transform: translate(1px, 30px);
   }
+
   50% {
-    -ms-transform:  translate(1px,12px)  ;
+    -ms-transform: translate(1px, 12px);
   }
+
   74% {
-    -ms-transform:  translate(1px,22px)  ;
+    -ms-transform: translate(1px, 22px);
   }
+
   100% {
-    -ms-transform:  translate(1px,22px)  ;
+    -ms-transform: translate(1px, 22px);
   }
 }
