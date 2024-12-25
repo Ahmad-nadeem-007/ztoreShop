@@ -168,8 +168,11 @@ body {
   padding: 10px 23px;
 }
 .btn-get-started:hover {
-  background-color: rgb(68, 66, 66);
-  border-radius: 50px;
+  background: linear-gradient(
+    80deg,
+    rgba(42, 13, 45, 1) 0%,
+    rgba(214, 11, 222, 1) 45%
+  );  border-radius: 50px;
   padding: 10px 23px;
   color: white;
 }
@@ -189,6 +192,13 @@ body {
 .animate-img-2 {
   animation: shape2 22s infinite alternate;
   transform: translate(-50%, -50%);
+}
+.animation-img-3 {
+  animation: shape1 8s linear infinite;
+}
+.animate-img-4 {
+  animation: shape1 8s infinite alternate;
+  /* transform: translate(-50%, -50%); */
 }
 
 @keyframes shape2 {
@@ -291,6 +301,16 @@ body {
   /* Smooth animation added */
 }
 
+.business-card:hover .shop-hover{
+  background: linear-gradient(
+    80deg,
+    rgba(42, 13, 45, 1) 0%,
+    rgba(214, 11, 222, 1) 45%
+  );
+  color: white !important;
+  border-radius: 50px;
+  padding: 10px 23px;
+}
 .business-card:hover .img-animation img {
   transform: translateY(-30px);
   /* Image scroll effect */
@@ -351,6 +371,7 @@ body {
   /* max-width: 22%; Ensure cards don't exceed this width */
   box-sizing: border-box;
   /* Include padding/border in the width */
+  /* width: 16.7rem; */
 }
 
 /* section five  */
@@ -374,7 +395,7 @@ body {
   background: linear-gradient(to top, black, rgb(54, 5, 54));
 }
 
-.pricing-shadow{
+/* .pricing-shadow{
   border-radius: 8px;
   padding: 2px;
   background: rgb(44, 44, 44);
@@ -388,7 +409,7 @@ body {
     rgb(84, 2, 100), 
     rgb(16, 2, 95) 
   );
-}
+} */
 .pricing-shadow-no-hover {
   padding: 2px;
   border-radius: 8px;
@@ -398,6 +419,33 @@ body {
     rgb(16, 2, 95) 
   );
 }
+
+/* sdfjlsdfs */
+/* Default background on hover */
+.pricing-shadow {
+  padding: 1px;
+  transition: all 0.5s ease-in-out;
+  background: none;
+}
+
+.pricing-shadow:hover {
+  background: linear-gradient(
+    to right,
+    rgb(84, 2, 100),
+    rgb(16, 2, 95)
+  );
+}
+
+/* Active background when accordion is open */
+.pricing-shadow:has(.accordion-collapse.show) {
+  background: linear-gradient(
+    to right,
+    rgb(84, 2, 100),
+    rgb(16, 2, 95)
+  );
+}
+
+/* sdfjlsdfs */
 
 .pricing-card .price {
   font-size: 2.5rem;
@@ -546,7 +594,7 @@ body {
 .accordion-body {
   background-color: #141414;
   /* Set background color for accordion body */
-  color: white;
+  /* color: white; */
   /* Set text color */
 }
 
@@ -597,8 +645,7 @@ footer p {
 }
 
 footer .container {
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  padding: 32px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;  padding: 32px;
 }
 
 .list-unstyled li a {
