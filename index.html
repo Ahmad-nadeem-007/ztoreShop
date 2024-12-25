@@ -1,1085 +1,1467 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home || Ztore Store</title>
+    <!-- Bootstrap  CSS -->
+    <link href="./assets/style/bootstrap.min.css" rel="stylesheet" />
+    <link href="./assets/style/index.css" rel="stylesheet" />
+    <!-- font family  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Home || Ztore Store</title>
-  <!-- Bootstrap 5 CSS (Local) -->
-  <link href="./assets/style/bootstrap.min.css" rel="stylesheet" />
-  <link href="./assets/style/index.css" rel="stylesheet" />
-  <!-- font family  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet" />
-  <!-- font awesome  -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+  <body>
+    <section class="bg-image-linear">
+      <div class="container position-relative">
+        <img
+          src="./assets/image/hero-ventor1.png"
+          class="position-absolute z-0 animation-img-1"
+          width="90"
+          style="top: 30%; left: 10%"
+          alt=""
+        />
+        <img
+          src="./assets/image/hero-ventor2.png"
+          class="position-absolute z-0 animate-img-2"
+          width="90"
+          style="top: 35%; right: 10%"
+          alt=""
+        />
+        <nav class="navbar navbar-expand-lg navbar-dark position-relative z-1">
+          <div class="container">
+            <a class="navbar-brand" href="#"
+              ><img src="./assets/image/logo.png" alt="Logo"
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Templates</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">FAQ</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Help Videos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact Us</a>
+                </li>
+              </ul>
+              <div class="d-flex gap-2">
+                <button class="btn btn-login login-hover border-0 fw-medium">
+                  Login
+                </button>
+                <button class="btn btn-get-started border-0 fs-18 fw-normal">
+                  Get Started
+                </button>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- section one  -->
+        <div class="row justify-content-center mt-5py-5 position-relative z-1">
+          <div class="col-lg-8 col-md-12 col-12 mt-5">
+            <h1 class="text-white fw-semibold text-center text-size">
+              Make your <span class="text-gradient">dream</span>
+              <span class="text-color-one">store</span> in 5 minutes
+            </h1>
+            <div class="paragraf-width m-auto text-center">
+              <p>
+                Make your dream stores in just 5 minutes with
+                <br class="d-none d-lg-block" />
+                our Platform at
+                <span class="text-color-one">₹199/Month.</span>
+              </p>
+            </div>
+            <div class="d-flex justify-content-center mt-3">
+              <div
+                class="search-container d-flex align-items-center gap-2 p-2 width-50"
+              >
+                <img
+                  src="./assets/image/search-md.png"
+                  width="32px"
+                  height="32px"
+                  alt="Search Icon"
+                />
+                <input
+                  type="text"
+                  placeholder="Search store name"
+                  aria-label="Search store name"
+                  class="w-100"
+                />
+                <button class="btn-get-started border-0" type="button">
+                  Claim Now
+                </button>
+              </div>
+            </div>
 
-<body>
-  <section class="bg-image-linear">
-    <div class="container position-relative">
-      <img src="./assets/image/hero-ventor1.png" class="position-absolute z-0 animation-img-1" width="90"
-        style="top: 30%; left: 10%" alt="" />
-      <img src="./assets/image/hero-ventor2.png" class="position-absolute z-0 animate-img-2" width="90"
-        style="top: 35%; right: 10%" alt="" />
-      <nav class="navbar navbar-expand-lg navbar-dark position-relative z-1">
-        <div class="container">
-          <a class="navbar-brand" href="#"><img src="./assets/image/logo.png" alt="Logo" /></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Templates</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">FAQ</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Help Videos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
-              </li>
-            </ul>
-            <div class="d-flex gap-2">
-              <button class="btn btn-login login-hover border-0 fw-medium">Login</button>
-              <button class="btn btn-get-started  border-0 fs-18 fw-normal">
-                Get Started
-              </button>
+            <div
+              style="
+                width: fit-content;
+                background-color: #2d1836;
+                border-radius: 50px;
+              "
+              class="p-2 px-3 mt-4 mx-auto"
+            >
+              <div class="d-flex gap-3 align-items-center">
+                <img
+                  src="./assets/image/Component 35.png"
+                  width="32px"
+                  height="32x"
+                  alt="Google Icon"
+                />
+                <div class="">
+                  <div class="d-flex align-items-center gap-1">
+                    <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                  </div>
+                  <p class="text-white mb-0 mt-1">Review on Google</p>
+                </div>
+                <p class="fs-2 text-white mb-0 ms-2">4.9</p>
+              </div>
             </div>
           </div>
         </div>
-      </nav>
-      <!-- section one  -->
-      <div class="row justify-content-center mt-5py-5  position-relative z-1">
-        <div class="col-lg-8 col-md-12 col-12 mt-5">
-          <h1 class="text-white fw-semibold text-center text-size">
-            Make your <span class="text-gradient">dream</span>
-            <span class="text-color-one">store</span> in 5 minutes
-          </h1>
-          <div class="paragraf-width m-auto text-center">
-            <p>
-              Make your dream stores in just 5 minutes with <br class="d-none d-lg-block" /> our Platform at
-              <span class="text-color-one">₹199/Month.</span>
+
+        <div
+          class="text-center mt-8 w-75 mx-auto"
+          style="transform: translateY(55px)"
+        >
+          <img
+            src="./assets/image/mainimage.png"
+            alt="main image"
+            class="w-100 object-fit-cover"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- section two  -->
+    <section
+      class="bg-black py-lg-5 py-md-5 py-sm-4 py-3 position-relative z-1"
+    >
+      <div class="container-fluid">
+        <div class="animate-marquee d-flex gap-4">
+          <img
+            src="./assets/image/marque-image.png"
+            class="w-50"
+            alt="Animation Icon"
+          />
+          <img
+            src="./assets/image/marque-image.png"
+            class="w-50"
+            alt="Animation Icon"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- section three  -->
+    <section class="bg-section-three text-center position-relative">
+      <div class="container py-5">
+        <h1 class="text-white fw-bold pt-4">
+          Solution for <span class="text-gradient">every business</span>
+        </h1>
+        <p class="bg-light-gray fs-6 mb-0">Explore some examples</p>
+        <div class="row mt-5 justify-content-center">
+          <div class="col-lg-3 col-md-6 col-10 mb-3">
+            <div class="business-card rounded-4">
+              <div class="rounded-4">
+                <div class="img-animation">
+                  <div>
+                    <img
+                      src="./assets/image/businessCard-img.png"
+                      alt="Business Card"
+                      class="w-100 object-fit-cover rounded-4"
+                    />
+                  </div>
+                </div>
+                <button
+                  class="btn-get-started-shop shop-hover border-0 mt-3 w-100"
+                >
+                  Flower Shop
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-10 mb-3">
+            <div class="business-card rounded-4">
+              <div class="rounded-4">
+                <div class="img-animation">
+                  <div>
+                    <img
+                      src="./assets/image/businessCard-img.png"
+                      alt
+                      class="w-100 object-fit-cover rounded-4"
+                    />
+                  </div>
+                </div>
+                <button
+                  class="btn-get-started-shop shop-hover border-0 mt-3 w-100"
+                >
+                  Flower Shop
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-10 mb-3">
+            <div class="business-card rounded-4">
+              <div class="rounded-4">
+                <div class="img-animation">
+                  <div>
+                    <img
+                      src="./assets/image/businessCard-img.png"
+                      alt
+                      class="w-100 object-fit-cover rounded-4"
+                    />
+                  </div>
+                </div>
+                <button
+                  class="btn-get-started-shop shop-hover border-0 mt-3 w-100"
+                >
+                  Flower Shop
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-10 mb-3">
+            <div class="business-card rounded-4">
+              <div class="rounded-4">
+                <div class="img-animation">
+                  <div>
+                    <img
+                      src="./assets/image/businessCard-img.png"
+                      alt
+                      class="w-100 object-fit-cover rounded-4"
+                    />
+                  </div>
+                </div>
+                <button
+                  class="btn-get-started-shop shop-hover border-0 mt-3 w-100"
+                >
+                  Flower Shop
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section four  -->
+    <section class="bg-black text-center pb-3">
+      <div class="container fw-semibold py-5">
+        <h1 class="text-white fw-bold">
+          What We <span class="text-gradient">Offer </span>
+        </h1>
+        <p class="bg-light-gray">A fully featured eCommerce Platform</p>
+        <div class="w-100 scrollable-row-container">
+          <div class="mt-3">
+            <div
+              class="row row-cols-lg-4 row-cols-md-2 g-0 row-cols-1 flex-nowrap"
+            >
+              <div class="col d-grid justify-content-center align-items-center">
+                <div
+                  class="card bg-card-color text-start border-0 shadow rounded-3 py-1 p-4"
+                >
+                  <div class="icon">
+                    <svg
+                      width="48"
+                      height="48"
+                      viewBox="0 0 48 48"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g clip-path="url(#clip0_39_134)">
+                        <path
+                          d="M37.0213 11.8234C37.5705 12.3725 38.4609 12.3725 39.01 11.8234L42.3246 8.50882C42.8738 7.95963 42.8738 7.06929 42.3246 6.5201C41.7754 5.97092 40.885 5.97092 40.3359 6.5201L37.0213 9.83463C36.4721 10.3838 36.4721 11.2742 37.0213 11.8234ZM38.6461 15.8333C38.8471 16.5835 39.6182 17.0287 40.3684 16.8277L44.8961 15.6145C45.6463 15.4135 46.0915 14.6424 45.8905 13.8922C45.6895 13.142 44.9185 12.6968 44.1683 12.8979L39.6405 14.1111C38.8902 14.312 38.4451 15.0831 38.6461 15.8333ZM33.0114 10.1989C33.7615 10.3999 34.5326 9.95473 34.7336 9.20454L35.9469 4.67679C36.1479 3.9266 35.7026 3.15551 34.9525 2.95451C34.2024 2.75351 33.4313 3.19873 33.2303 3.94892L32.017 8.47667C31.816 9.22685 32.2612 9.99795 33.0114 10.1989Z"
+                          fill="url(#paint0_linear_39_134)"
+                        />
+                        <path
+                          d="M44.8379 19.7803H28.6292C27.7045 19.7803 27.0315 18.9033 27.2708 18.0101L28.9034 11.9173C29.3556 10.2295 28.3539 8.49443 26.666 8.04218C24.9782 7.58993 23.2432 8.59165 22.7909 10.2795L22.0139 13.1792C20.9707 17.0728 17.4423 19.7803 13.4112 19.7803H9.37695V41.3428H11.9551L12.6582 42.2803C13.3131 43.1536 14.1624 43.8624 15.1387 44.3505C16.1151 44.8387 17.1916 45.0928 18.2832 45.0928H30.5879C32.3354 45.0928 33.752 43.6763 33.752 41.9288C33.752 40.1813 32.3354 38.7647 30.5879 38.7647H32.4629C34.2104 38.7647 35.627 37.3481 35.627 35.6006C35.627 33.8531 34.2104 32.4366 32.4629 32.4366H34.3379C36.0854 32.4366 37.502 31.02 37.502 29.2725C37.502 27.525 36.0854 26.1085 34.3379 26.1085H44.8379C46.5854 26.1085 48.002 24.6919 48.002 22.9444C48.002 21.1969 46.5854 19.7803 44.8379 19.7803ZM5.1582 16.9678H1.4082C0.631578 16.9678 0.00195312 17.5975 0.00195312 18.3741V42.7491C0.00195312 43.5257 0.631578 44.1553 1.4082 44.1553H5.1582C5.93483 44.1553 6.56445 43.5257 6.56445 42.7491V18.3741C6.56445 17.5975 5.93483 16.9678 5.1582 16.9678Z"
+                          fill="url(#paint1_linear_39_134)"
+                        />
+                      </g>
+                      <defs>
+                        <lineargradient
+                          id="paint0_linear_39_134"
+                          x1="27.5112"
+                          y1="0.536386"
+                          x2="46.8219"
+                          y2="2.97622"
+                          gradientUnits="userSpaceOnUse"
+                        >
+                          <stop stop-color="#330166" />
+                          <stop offset="1" stop-color="#D60BDE" />
+                        </lineargradient>
+                        <lineargradient
+                          id="paint1_linear_39_134"
+                          x1="-15.3138"
+                          y1="1.6298"
+                          x2="50.3464"
+                          y2="12.3457"
+                          gradientUnits="userSpaceOnUse"
+                        >
+                          <stop stop-color="#330166" />
+                          <stop offset="1" stop-color="#D60BDE" />
+                        </lineargradient>
+                        <clippath id="clip0_39_134">
+                          <rect width="48" height="48" fill="white" />
+                        </clippath>
+                      </defs>
+                    </svg>
+                  </div>
+                  <div class="card-body px-0">
+                    <h6 class="card-title text-white fw text-wrap">
+                      Easy to use and efficient
+                    </h6>
+                    <p
+                      class="card-text text-wrap"
+                      style="font-size: 14px; font-weight: 300"
+                    >
+                      A fully featured eCommerce Platform A fully featured
+                      eCommerce Platform
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col d-grid justify-content-center align-items-center">
+                <div
+                  class="card bg-card-color text-start border-0 shadow rounded-3 py-1 p-4"
+                >
+                  <div class="icon">
+                    <svg
+                      width="48"
+                      height="48"
+                      viewBox="0 0 48 48"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M0 41.4936C0 42.7965 1.06022 43.8567 2.36344 43.8567H45.6366C46.9398 43.8567 48 42.7965 48 41.4936V17.2683H0V41.4936ZM30.5314 27.0143C29.9506 26.4986 29.8974 25.6099 30.4131 25.0291C30.9287 24.4478 31.8174 24.3952 32.3983 24.9108L37.5817 29.5107C37.7304 29.6427 37.8494 29.8046 37.9309 29.9859C38.0123 30.1672 38.0545 30.3637 38.0545 30.5625C38.0545 30.7613 38.0123 30.9578 37.9309 31.1391C37.8494 31.3204 37.7304 31.4823 37.5817 31.6143L32.3983 36.2146C32.1414 36.4433 31.8094 36.5694 31.4655 36.5691C31.0774 36.5691 30.6911 36.4094 30.4131 36.0963C29.8974 35.5155 29.9506 34.6268 30.5314 34.1111L34.5296 30.5625L30.5314 27.0143ZM20.2877 34.4597L25.2766 25.8186C25.6647 25.1459 26.5251 24.9156 27.1977 25.3037C27.8701 25.6923 28.1005 26.5522 27.7123 27.2248L22.7234 35.8659C22.463 36.3172 21.9903 36.5694 21.5043 36.5694C21.2655 36.5694 21.0238 36.5087 20.8023 36.3808C20.1299 35.9927 19.8995 35.1324 20.2877 34.4597ZM10.4184 29.5107L15.6018 24.9108C16.1826 24.3952 17.0714 24.4478 17.587 25.0291C18.1027 25.6099 18.0495 26.4986 17.4687 27.0143L13.4705 30.5629L17.4687 34.1114C18.0495 34.6268 18.1027 35.5155 17.587 36.0967C17.4551 36.2456 17.2931 36.3647 17.1116 36.4462C16.9301 36.5278 16.7334 36.5697 16.5345 36.5694C16.2027 36.5694 15.8694 36.4526 15.6018 36.215L10.4183 31.6147C10.2696 31.4827 10.1506 31.3207 10.0691 31.1394C9.98756 30.9581 9.94541 30.7615 9.94541 30.5627C9.94541 30.3639 9.98756 30.1673 10.0691 29.986C10.1506 29.8047 10.2697 29.6427 10.4184 29.5107ZM48 6.58219C48 5.27906 46.9398 4.21875 45.6366 4.21875H2.36344C1.06031 4.21875 0 5.27897 0 6.58219V14.4558H48V6.58219ZM5.68284 11.346C4.57359 11.346 3.67416 10.4467 3.67416 9.33741C3.67416 8.22816 4.57359 7.32872 5.68284 7.32872C6.79209 7.32872 7.69153 8.22816 7.69153 9.33741C7.69153 10.4467 6.79209 11.346 5.68284 11.346ZM11.5141 11.346C10.4047 11.346 9.50578 10.4467 9.50578 9.33741C9.50578 8.22816 10.4048 7.32872 11.514 7.32872C12.6236 7.32872 13.5227 8.22816 13.5227 9.33741C13.5227 10.4467 12.6237 11.346 11.5141 11.346ZM42.8167 10.7437H29.0719C28.2952 10.7437 27.6656 10.1141 27.6656 9.33741C27.6656 8.56069 28.2952 7.93116 29.0719 7.93116H42.8166C43.5929 7.93116 44.2228 8.56069 44.2228 9.33741C44.2228 10.1141 43.5933 10.7437 42.8166 10.7437H42.8167Z"
+                        fill="url(#paint0_linear_39_142)"
+                      />
+                      <defs>
+                        <lineargradient
+                          id="paint0_linear_39_142"
+                          x1="21.7397"
+                          y1="17.6957"
+                          x2="49.3766"
+                          y2="17.6679"
+                          gradientUnits="userSpaceOnUse"
+                        >
+                          <stop stop-color="#D60BDE" />
+                          <stop offset="1" stop-color="#324E8E" />
+                        </lineargradient>
+                      </defs>
+                    </svg>
+                  </div>
+                  <div class="card-body px-0">
+                    <h6 class="card-title text-white fw text-wrap">
+                      No Code Platform
+                    </h6>
+                    <p
+                      class="card-text text-wrap"
+                      style="font-size: 14px; font-weight: 300"
+                    >
+                      A fully featured eCommerce Platform A fully featured
+                      eCommerce Platform
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col d-grid justify-content-center align-items-center">
+                <div
+                  class="card bg-card-color text-start border-0 shadow rounded-3 py-1 p-4"
+                >
+                  <div class="icon">
+                    <svg
+                      width="48"
+                      height="48"
+                      viewBox="0 0 48 48"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M15 3C13.8065 3 12.6619 3.47411 11.818 4.31802C10.9741 5.16193 10.5 6.30653 10.5 7.5V15H13.5V7.5C13.5 7.10218 13.658 6.72064 13.9393 6.43934C14.2206 6.15804 14.6022 6 15 6H19.0455L21.504 7.638C22.2432 8.13074 23.1116 8.39367 24 8.39367C24.8884 8.39367 25.7568 8.13074 26.496 7.638L28.9545 6H33C33.3978 6 33.7794 6.15804 34.0607 6.43934C34.342 6.72064 34.5 7.10218 34.5 7.5V15H37.5V7.5C37.5 6.30653 37.0259 5.16193 36.182 4.31802C35.3381 3.47411 34.1935 3 33 3H15ZM10.5 40.5V33H13.5V40.5C13.5 40.8978 13.658 41.2794 13.9393 41.5607C14.2206 41.842 14.6022 42 15 42H33C33.3978 42 33.7794 41.842 34.0607 41.5607C34.342 41.2794 34.5 40.8978 34.5 40.5V33H37.5V40.5C37.5 41.6935 37.0259 42.8381 36.182 43.682C35.3381 44.5259 34.1935 45 33 45H15C13.8065 45 12.6619 44.5259 11.818 43.682C10.9741 42.8381 10.5 41.6935 10.5 40.5ZM7.5 18C6.70435 18 5.94129 18.3161 5.37868 18.8787C4.81607 19.4413 4.5 20.2044 4.5 21V27C4.5 27.7956 4.81607 28.5587 5.37868 29.1213C5.94129 29.6839 6.70435 30 7.5 30H13.5C14.2956 30 15.0587 29.6839 15.6213 29.1213C16.1839 28.5587 16.5 27.7956 16.5 27V21C16.5 20.2044 16.1839 19.4413 15.6213 18.8787C15.0587 18.3161 14.2956 18 13.5 18H7.5ZM21 18C20.2044 18 19.4413 18.3161 18.8787 18.8787C18.3161 19.4413 18 20.2044 18 21V27C18 27.7956 18.3161 28.5587 18.8787 29.1213C19.4413 29.6839 20.2044 30 21 30H27C27.7956 30 28.5587 29.6839 29.1213 29.1213C29.6839 28.5587 30 27.7956 30 27V21C30 20.2044 29.6839 19.4413 29.1213 18.8787C28.5587 18.3161 27.7956 18 27 18H21ZM31.5 21C31.5 20.2044 31.8161 19.4413 32.3787 18.8787C32.9413 18.3161 33.7044 18 34.5 18H40.5C41.2957 18 42.0587 18.3161 42.6213 18.8787C43.1839 19.4413 43.5 20.2044 43.5 21V27C43.5 27.7956 43.1839 28.5587 42.6213 29.1213C42.0587 29.6839 41.2957 30 40.5 30H34.5C33.7044 30 32.9413 29.6839 32.3787 29.1213C31.8161 28.5587 31.5 27.7956 31.5 27V21Z"
+                        fill="url(#paint0_linear_39_170)"
+                      />
+                      <defs>
+                        <lineargradient
+                          id="paint0_linear_39_170"
+                          x1="22.1635"
+                          y1="17.28"
+                          x2="44.6185"
+                          y2="17.2627"
+                          gradientUnits="userSpaceOnUse"
+                        >
+                          <stop stop-color="#D60BDE" />
+                          <stop offset="1" stop-color="#324E8E" />
+                        </lineargradient>
+                      </defs>
+                    </svg>
+                  </div>
+                  <div class="card-body px-0">
+                    <h6 class="card-title text-white fw text-wrap">
+                      No Additional Apps
+                    </h6>
+                    <p
+                      class="card-text text-wrap"
+                      style="font-size: 14px; font-weight: 300"
+                    >
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col d-grid justify-content-center align-items-center">
+                <div
+                  class="card bg-card-color text-start border-0 shadow rounded-3 py-1 p-4"
+                >
+                  <div class="icon">
+                    <img
+                      src="/assets/image/offerImg5.svg"
+                      alt=" Multiple Staff Accounts"
+                      width="48"
+                      height="48"
+                    />
+                  </div>
+                  <div class="card-body px-0">
+                    <h6 class="card-title text-white fw text-wrap">
+                      Multiple Staff Accounts
+                    </h6>
+                    <p
+                      class="card-text text-wrap"
+                      style="font-size: 14px; font-weight: 300"
+                    >
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col d-grid justify-content-center align-items-center">
+                <div
+                  class="card bg-card-color text-start border-0 shadow rounded-3 py-1 p-4"
+                >
+                  <div class="icon">
+                    <img
+                      src="/assets/image/offerImg5.svg"
+                      alt=" Multiple Staff Accounts"
+                      width="48"
+                      height="48"
+                    />
+                  </div>
+                  <div class="card-body px-0">
+                    <h6 class="card-title text-white fw text-wrap">
+                      Multiple Staff Accounts
+                    </h6>
+                    <p
+                      class="card-text text-wrap"
+                      style="font-size: 14px; font-weight: 300"
+                    >
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mt-3 mb-5">
+            <div
+              class="row row-cols-lg-4 row-cols-md-2 g-0 row-cols-1 flex-nowrap"
+            >
+              <div class="col d-grid justify-content-center align-items-center">
+                <div
+                  class="card bg-card-color text-start border-0 shadow rounded-3 py-1 p-4"
+                >
+                  <div class="icon">
+                    <img
+                      src="/assets/image/offerSectionImg.svg"
+                      alt=" Multiple Staff Accounts"
+                      width="48"
+                      height="48"
+                    />
+                  </div>
+                  <div class="card-body px-0">
+                    <h6 class="card-title text-white fw text-wrap">
+                      Manage Inventory
+                    </h6>
+                    <p
+                      class="card-text text-wrap"
+                      style="font-size: 14px; font-weight: 300"
+                    >
+                      A fully featured eCommerce Platform A fully featured
+                      eCommerce Platform .
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col d-grid justify-content-center align-items-center">
+                <div
+                  class="card bg-card-color text-start border-0 shadow rounded-3 py-1 p-4"
+                >
+                  <div class="icon">
+                    <img
+                      src="/assets/image/offerImg2.svg"
+                      alt="Manage Store Orders"
+                      width="48"
+                      height="48"
+                    />
+                  </div>
+                  <div class="card-body px-0">
+                    <h6 class="card-title text-white fw text-wrap">
+                      Manage Store Orders
+                    </h6>
+                    <p
+                      class="card-text text-wrap"
+                      style="font-size: 14px; font-weight: 300"
+                    >
+                      A fully featured eCommerce Platform A fully featured
+                      eCommerce Platform
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col d-grid justify-content-center align-items-center">
+                <div
+                  class="card bg-card-color text-start border-0 shadow rounded-3 py-1 p-4"
+                >
+                  <div class="icon">
+                    <img
+                      src="/assets/image/offerImg3.svg"
+                      alt=" Unique Product Reports "
+                      width="48"
+                      height="48"
+                    />
+                  </div>
+                  <div class="card-body px-0">
+                    <h6 class="card-title text-white fw text-wrap">
+                      Unique Product Reports
+                    </h6>
+                    <p
+                      class="card-text text-wrap"
+                      style="font-size: 14px; font-weight: 300"
+                    >
+                      A fully featured eCommerce Platform A fully featured
+                      eCommerce Platform
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col d-grid justify-content-center align-items-center">
+                <div
+                  class="card bg-card-color text-start border-0 shadow rounded-3 py-1 p-4"
+                >
+                  <div class="icon">
+                    <img
+                      src="/assets/image/offerImg4.svg"
+                      alt=" Multiple Templates "
+                      width="48"
+                      height="48"
+                    />
+                  </div>
+                  <div class="card-body px-0">
+                    <h6 class="card-title text-white fw text-wrap">
+                      Multiple Templates
+                    </h6>
+                    <p
+                      class="card-text text-wrap"
+                      style="font-size: 14px; font-weight: 300"
+                    >
+                      A fully featured eCommerce Platform A fully featured
+                      eCommerce Platform
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col d-grid justify-content-center align-items-center">
+                <div
+                  class="card bg-card-color text-start border-0 shadow rounded-3 py-1 p-4"
+                >
+                  <div class="icon">
+                    <svg
+                      width="48"
+                      height="48"
+                      viewBox="0 0 48 48"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M15 3C13.8065 3 12.6619 3.47411 11.818 4.31802C10.9741 5.16193 10.5 6.30653 10.5 7.5V15H13.5V7.5C13.5 7.10218 13.658 6.72064 13.9393 6.43934C14.2206 6.15804 14.6022 6 15 6H19.0455L21.504 7.638C22.2432 8.13074 23.1116 8.39367 24 8.39367C24.8884 8.39367 25.7568 8.13074 26.496 7.638L28.9545 6H33C33.3978 6 33.7794 6.15804 34.0607 6.43934C34.342 6.72064 34.5 7.10218 34.5 7.5V15H37.5V7.5C37.5 6.30653 37.0259 5.16193 36.182 4.31802C35.3381 3.47411 34.1935 3 33 3H15ZM10.5 40.5V33H13.5V40.5C13.5 40.8978 13.658 41.2794 13.9393 41.5607C14.2206 41.842 14.6022 42 15 42H33C33.3978 42 33.7794 41.842 34.0607 41.5607C34.342 41.2794 34.5 40.8978 34.5 40.5V33H37.5V40.5C37.5 41.6935 37.0259 42.8381 36.182 43.682C35.3381 44.5259 34.1935 45 33 45H15C13.8065 45 12.6619 44.5259 11.818 43.682C10.9741 42.8381 10.5 41.6935 10.5 40.5ZM7.5 18C6.70435 18 5.94129 18.3161 5.37868 18.8787C4.81607 19.4413 4.5 20.2044 4.5 21V27C4.5 27.7956 4.81607 28.5587 5.37868 29.1213C5.94129 29.6839 6.70435 30 7.5 30H13.5C14.2956 30 15.0587 29.6839 15.6213 29.1213C16.1839 28.5587 16.5 27.7956 16.5 27V21C16.5 20.2044 16.1839 19.4413 15.6213 18.8787C15.0587 18.3161 14.2956 18 13.5 18H7.5ZM21 18C20.2044 18 19.4413 18.3161 18.8787 18.8787C18.3161 19.4413 18 20.2044 18 21V27C18 27.7956 18.3161 28.5587 18.8787 29.1213C19.4413 29.6839 20.2044 30 21 30H27C27.7956 30 28.5587 29.6839 29.1213 29.1213C29.6839 28.5587 30 27.7956 30 27V21C30 20.2044 29.6839 19.4413 29.1213 18.8787C28.5587 18.3161 27.7956 18 27 18H21ZM31.5 21C31.5 20.2044 31.8161 19.4413 32.3787 18.8787C32.9413 18.3161 33.7044 18 34.5 18H40.5C41.2957 18 42.0587 18.3161 42.6213 18.8787C43.1839 19.4413 43.5 20.2044 43.5 21V27C43.5 27.7956 43.1839 28.5587 42.6213 29.1213C42.0587 29.6839 41.2957 30 40.5 30H34.5C33.7044 30 32.9413 29.6839 32.3787 29.1213C31.8161 28.5587 31.5 27.7956 31.5 27V21Z"
+                        fill="url(#paint0_linear_39_170)"
+                      />
+                      <defs>
+                        <lineargradient
+                          id="paint0_linear_39_170"
+                          x1="22.1635"
+                          y1="17.28"
+                          x2="44.6185"
+                          y2="17.2627"
+                          gradientUnits="userSpaceOnUse"
+                        >
+                          <stop stop-color="#D60BDE" />
+                          <stop offset="1" stop-color="#324E8E" />
+                        </lineargradient>
+                      </defs>
+                    </svg>
+                  </div>
+                  <div class="card-body px-0">
+                    <h6 class="card-title text-white fw text-wrap">
+                      No Additional Apps
+                    </h6>
+                    <p
+                      class="card-text text-wrap"
+                      style="font-size: 14px; font-weight: 300"
+                    >
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section five  -->
+    <section class="bg-color-change pt-4">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 col-12">
+            <h2 class="text-white fw-bold">
+              Apply your
+              <span class="text-gradient">own theming </span>decisions.
+            </h2>
+            <p class="bg-light-gray mb-4 fs-18">
+              Unleash your creativity with ZtoreSpot's theme customization
+              feature! Whether you prefer bold and vibrant colors or a sleek and
+              minimalist look, ZtoreSpot has got you covered.
+            </p>
+            <button class="btn btn-get-started border-0">Learn More</button>
+          </div>
+          <div class="col-lg-6 col-md-12 col-12 text-center">
+            <div class="position-relative">
+              <img
+                src="./assets/image/hero-ventor2.png"
+                class="position-absolute z-0 animate-img-4"
+                width="90"
+                style="bottom: -20rem; left: -11%"
+                alt=""
+              />
+              <img
+                src="./assets/image/hero-ventor1.png"
+                class="position-absolute z-0 animation-img-3"
+                width="90"
+                style="top: 30%; left: 85%"
+                alt=""
+              />
+            </div>
+            <img src="./assets/image/Group.png" class="w-100" alt />
+          </div>
+        </div>
+
+        <div class="row mt-5">
+          <div class="col-lg-6 col-md-12 col-12 text-center">
+            <div class="position-relative">
+              <img
+                src="./assets/image/hero-ventor2.png"
+                class="position-absolute z-0 animate-img-4"
+                width="90"
+                style="bottom: -20rem; left: -11%"
+                alt=""
+              />
+              <img
+                src="./assets/image/hero-ventor1.png"
+                class="position-absolute z-0 animation-img-3"
+                width="90"
+                style="top: 30%; left: 85%"
+                alt=""
+              />
+            </div>
+            <img src="./assets/image/Group-2.png" class="w-100" alt />
+          </div>
+          <div class="col-lg-6 col-md-12 col-12">
+            <h2 class="text-white fw-bold mt-lg-0 mt-3">
+              Export your <span class="text-gradient">store reports </span> in a
+              second
+            </h2>
+            <p class="bg-light-gray mb-4 fs-18">
+              Keep track of your progress and stay on top of your goals with
+              ZtoreSpot's powerful reporting feature! Whether you need to
+              generate yearly, monthly, or weekly reports, ZtoreSpot makes it
+              easy to check and export the data you need.
+            </p>
+            <button class="btn btn-get-started border-0 mt-2 mb-5">
+              learn more
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section six   -->
+    <section class="bg-black pt-5">
+      <div class="container">
+        <div class="row text-center justify-content-center">
+          <div class="">
+            <h1 class="text-white fw-bold pt-4">
+              Get started with a Welcome <br />plan and
+              <span class="text-gradient">start business </span>
+            </h1>
+            <p class="bg-light-gray fs-18 mt-4">Explore Some Examples</p>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div
+            class="col-lg-3 col-md-6 col-12 d-grid justify-content-center px-1"
+          >
+            <div class="pricing-shadow rounded-3">
+              <div class="pricing-card h-100">
+                <h4 class="mb-3">Welcome</h4>
+                <p class="fs-14 textGray" style="font-size: 13px">
+                  Start your dream online store for just ₹199/1 month with GST.
+                </p>
+                <div class="price">
+                  <h3 class="">$2,500</h3>
+                  <h6 class="d-block">Month</h6>
+                </div>
+                <a href="./offer-page.html" class="text-white">
+                  <button class="btn btn-custom fw-medium">Get started</button>
+                </a>
+                <ul class="features mt-4">
+                  <li class="fs-16 textGrey">
+                    <div class="checkbox-icon">
+                      <i class="fa-solid fa-check"></i>
+                    </div>
+                    1 Online Store
+                  </li>
+                  <li class="fs-16 textGrey">
+                    <div class="checkbox-icon">
+                      <i class="fa-solid fa-check"></i>
+                    </div>
+                    30 Products
+                  </li>
+                  <li class="fs-16 textGrey">
+                    <div class="checkbox-icon">
+                      <i class="fa-solid fa-check"></i>
+                    </div>
+                    10 Categories
+                  </li>
+                  <li class="fs-16 textGrey">
+                    <div class="checkbox-icon">
+                      <i class="fa-solid fa-check"></i>
+                    </div>
+                    Unlimited Orders
+                  </li>
+                  <li class="fs-16 textGrey">
+                    <div class="checkbox-icon">
+                      <i class="fa-solid fa-check"></i>
+                    </div>
+                    Unlimited Customers
+                  </li>
+                </ul>
+
+                <div class="more-features">
+                  <button
+                    class="btn fs-16 rounded-5 w-100 justify-content-between"
+                  >
+                    Show more features
+                    <i
+                      class="fa-solid fa-arrow-right"
+                      style="color: #ffffff"
+                    ></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-3 col-md-6 col-12 d-grid justify-content-center px-1"
+          >
+            <div class="pricing-shadow rounded-3">
+              <div class="pricing-card h-100">
+                <h4 class="mb-3">Starter Plan</h4>
+                <p class="textGray" style="font-size: 13px">
+                  Elevate Your E-commerce Journey with this Starter Plan at Just
+                  ₹799/3
+                </p>
+                <div class="price">
+                  <h3 class="">$5,500</h3>
+                  <h6 class="d-block">Month</h6>
+                </div>
+                <a href="./offer-page.html" class="text-white">
+                  <button class="btn btn-custom fw-medium">Get started</button>
+                </a>
+                <ul class="features mt-4">
+                  <li class="fs-14 textGrey">
+                    <div class="checkbox-icon">
+                      <i class="fa-solid fa-check"></i>
+                    </div>
+                    1 Online Store
+                  </li>
+                  <li class="fs-14 textGrey">
+                    <div class="checkbox-icon">
+                      <i class="fa-solid fa-check"></i>
+                    </div>
+                    30 Products
+                  </li>
+                  <li class="fs-14 textGrey">
+                    <div class="checkbox-icon">
+                      <i class="fa-solid fa-check"></i>
+                    </div>
+                    10 Categories
+                  </li>
+                  <li class="fs-14 textGrey">
+                    <div class="checkbox-icon">
+                      <i class="fa-solid fa-check"></i>
+                    </div>
+                    Unlimited Orders
+                  </li>
+                  <li class="fs-14 textGrey">
+                    <div class="checkbox-icon">
+                      <i class="fa-solid fa-check"></i>
+                    </div>
+                    Unlimited Customers
+                  </li>
+                </ul>
+
+                <div class="more-features">
+                  <button
+                    class="btn fs-16 rounded-5 w-100 justify-content-between"
+                  >
+                    Show more features
+                    <i
+                      class="fa-solid fa-arrow-right"
+                      style="color: #ffffff"
+                    ></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-3 col-md-6 col-12 d-grid justify-content-center px-1"
+          >
+            <div class="pricing-shadow rounded-3">
+              <div class="pricing-card h-100">
+                <h4 class="mb-3">Intermediate</h4>
+                <p class="fs-14 textGray" style="font-size: 13px">
+                  Get Selling with Our Intermediate Plan at ₹2400 for 1 year
+                  with GST
+                </p>
+                <div class="price">
+                  <h3 class="">$10,500</h3>
+                  <h6 class="d-block">Month</h6>
+                </div>
+                <a href="./offer-page.html" class="text-white">
+                  <button class="btn btn-custom fw-medium">Get started</button>
+                </a>
+                <ul class="features mt-4">
+                  <li class="fs-16 textGrey">
+                    <div class="checkbox-icon">
+                      <i class="fa-solid fa-check"></i>
+                    </div>
+                    1 Online Store
+                  </li>
+                  <li class="fs-16 textGrey">
+                    <div class="checkbox-icon">
+                      <i class="fa-solid fa-check"></i>
+                    </div>
+                    30 Products
+                  </li>
+                  <li class="fs-16 textGrey">
+                    <div class="checkbox-icon">
+                      <i class="fa-solid fa-check"></i>
+                    </div>
+                    10 Categories
+                  </li>
+                  <li class="fs-16 textGrey">
+                    <div class="checkbox-icon">
+                      <i class="fa-solid fa-check"></i>
+                    </div>
+                    Unlimited Orders
+                  </li>
+                  <li class="fs-16 textGrey">
+                    <div class="checkbox-icon">
+                      <i class="fa-solid fa-check"></i>
+                    </div>
+                    Unlimited Customers
+                  </li>
+                </ul>
+
+                <div class="more-features">
+                  <button
+                    class="btn fs-16 rounded-5 w-100 justify-content-between"
+                  >
+                    Show more features
+                    <i
+                      class="fa-solid fa-arrow-right"
+                      style="color: #ffffff"
+                    ></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-3 col-md-6 col-12 d-grid justify-content-center px-1"
+          >
+            <div class="pricing-shadow rounded-3">
+              <div class="pricing-card h-100">
+                <h4 class="mb-3">Professional</h4>
+                <p class="fs-14 textGray" style="font-size: 13px">
+                  Kickstart Your E-commerce Success at ₹2899 for 1 year +GST.
+                </p>
+                <div class="price">
+                  <h3 class="">$10,500</h3>
+                  <h6 class="d-block">Month</h6>
+                </div>
+                <a href="./offer-page.html" class="text-white">
+                  <button class="btn btn-custom fw-medium">Get started</button>
+                </a>
+                <ul class="features mt-4">
+                  <li class="fs-16 textGrey">
+                    <div class="checkbox-icon">
+                      <i class="fa-solid fa-check"></i>
+                    </div>
+                    1 Online Store
+                  </li>
+                  <li class="fs-16 textGrey">
+                    <div class="checkbox-icon">
+                      <i class="fa-solid fa-check"></i>
+                    </div>
+                    30 Products
+                  </li>
+                  <li class="fs-16 textGrey">
+                    <div class="checkbox-icon">
+                      <i class="fa-solid fa-check"></i>
+                    </div>
+                    10 Categories
+                  </li>
+                  <li class="fs-16 textGrey">
+                    <div class="checkbox-icon">
+                      <i class="fa-solid fa-check"></i>
+                    </div>
+                    Unlimited Orders
+                  </li>
+                  <li class="fs-16 textGrey">
+                    <div class="checkbox-icon">
+                      <i class="fa-solid fa-check"></i>
+                    </div>
+                    Unlimited Customers
+                  </li>
+                </ul>
+
+                <div class="more-features">
+                  <button
+                    class="btn fs-16 rounded-5 w-100 justify-content-between"
+                  >
+                    Show more features
+                    <i
+                      class="fa-solid fa-arrow-right"
+                      style="color: #ffffff"
+                    ></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section saveen  -->
+    <section class="bg-black pt-5 pb-5">
+      <div class="container-fluid">
+        <div class="row text-center justify-content-center">
+          <div class="col">
+            <h1 class="text-white fw-bold pt-4">
+              What our customers<span class="text-gradient"> are saying </span>
+            </h1>
+            <p class="bg-light-gray mt-2">
+              A fully featured eCommerce Platform
             </p>
           </div>
-          <div class="d-flex justify-content-center mt-3">
-            <div class="search-container d-flex align-items-center gap-2 p-2 width-50">
-              <img src="./assets/image/search-md.png" width="32px" height="32px" alt="Search Icon" />
-              <input type="text" placeholder="Search store name" aria-label="Search store name" class="w-100" />
-              <button class="btn-get-started border-0" type="button">
-                Claim Now
-              </button>
-            </div>
-          </div>
-
-          <div style="width: fit-content;
-                background-color: #2D1836 ;
-                border-radius: 50px;" class="p-2 px-3 mt-4 mx-auto">
-            <div class="d-flex gap-3 align-items-center">
-              <img src="./assets/image/Component 35.png" width="32px" height="32x" alt="Google Icon" />
-              <div class="">
-                <div class="d-flex align-items-center gap-1">
-                  <i class="fa-solid fa-star" style="color: #ffd43b"></i>
-                  <i class="fa-solid fa-star" style="color: #ffd43b"></i>
-                  <i class="fa-solid fa-star" style="color: #ffd43b"></i>
-                  <i class="fa-solid fa-star" style="color: #ffd43b"></i>
-                  <i class="fa-solid fa-star" style="color: #ffd43b"></i>
-                </div>
-                <p class="text-white mb-0 mt-1">Review on Google</p>
-              </div>
-              <p class="fs-2 text-white mb-0 ms-2">4.9</p>
-            </div>
-          </div>
         </div>
-      </div>
 
-      <div class="text-center mt-8 w-75 mx-auto" style="transform: translateY(55px);">
-        <img src="./assets/image/mainimage.png" alt="main image" class="w-100 object-fit-cover" />
-      </div>
-    </div>
-  </section>
-  <!-- section two  -->
-  <section class="bg-black py-lg-5 py-md-5 py-sm-4 py-3 position-relative z-1">
-    <div class="container-fluid">
-      <div class="animate-marquee d-flex gap-4">
-        <img src="./assets/image/marque-image.png" class="w-50" alt="Animation Icon" />
-        <img src="./assets/image/marque-image.png" class="w-50" alt="Animation Icon" />
-      </div>
-    </div>
-  </section>
-  <!-- section three  -->
-  <section class="bg-section-three text-center position-relative">
-    <div class="container py-5">
-      <h1 class="text-white fw-bold pt-4">
-        Solution for <span class="text-gradient">every business</span>
-      </h1>
-      <p class="bg-light-gray fs-6 mb-0">Explore some examples</p>
-      <div class="row mt-5 justify-content-center">
-        <div class="col-lg-3 col-md-6 col-10 mb-3">
-          <div class="business-card rounded-4">
-            <div class="rounded-4">
-              <div class="img-animation">
-                <div>
-                  <img src="./assets/image/businessCard-img.png" alt="Business Card"
-                    class="w-100 object-fit-cover rounded-4" />
+        <div class="scrollable-row-container mt-3">
+          <div class="row flex-nowrap g-2">
+            <div class="col d-grid justify-content-center">
+              <div class="testimonial-card">
+                <div class="profile-info mb-3">
+                  <img
+                    src="./assets/image/Image-1.png"
+                    alt="Profile Image"
+                    class="profile-img"
+                  />
+                  <div>
+                    <p class="name mb-0">Gordon Wilson</p>
+                    <p class="title mb-0">CEO cogentnetworks</p>
+                  </div>
                 </div>
-              </div>
-              <button class="btn-get-started-shop shop-hover border-0 mt-3 w-100">
-                Flower Shop
-              </button>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-10 mb-3">
-          <div class="business-card rounded-4">
-            <div class="rounded-4">
-              <div class="img-animation">
-                <div>
-                  <img src="./assets/image/businessCard-img.png" alt class="w-100 object-fit-cover rounded-4" />
+                <div class="stars mb-2">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                  <span class="ms-2">4.0</span>
                 </div>
-              </div>
-              <button class="btn-get-started-shop shop-hover border-0 mt-3 w-100">
-                Flower Shop
-              </button>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-10 mb-3">
-          <div class="business-card rounded-4">
-            <div class="rounded-4">
-              <div class="img-animation">
-                <div>
-                  <img src="./assets/image/businessCard-img.png" alt class="w-100 object-fit-cover rounded-4" />
-                </div>
-              </div>
-              <button class="btn-get-started-shop shop-hover border-0 mt-3 w-100">
-                Flower Shop
-              </button>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-10 mb-3">
-          <div class="business-card rounded-4">
-            <div class="rounded-4">
-              <div class="img-animation">
-                <div>
-                  <img src="./assets/image/businessCard-img.png" alt class="w-100 object-fit-cover rounded-4" />
-                </div>
-              </div>
-              <button class="btn-get-started-shop shop-hover border-0 mt-3 w-100">
-                Flower Shop
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- section four  -->
-  <section class="bg-black text-center pb-3">
-    <div class="container  fw-semibold py-5">
-      <h1 class="text-white fw-bold">
-        What We <span class="text-gradient">Offer </span>
-      </h1>
-      <p class="bg-light-gray">A fully featured eCommerce Platform</p>
-      <div class="w-100 scrollable-row-container">
-        <div class="mt-3">
-          <div class="row row-cols-lg-4 row-cols-md-2 g-0 row-cols-1 flex-nowrap">
-            <div class="col d-grid justify-content-center align-items-center">
-              <div class="card bg-card-color text-start border-0 shadow rounded-3 py-1 p-4">
-                <div class="icon">
-                  <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <g clip-path="url(#clip0_39_134)">
-                      <path
-                        d="M37.0213 11.8234C37.5705 12.3725 38.4609 12.3725 39.01 11.8234L42.3246 8.50882C42.8738 7.95963 42.8738 7.06929 42.3246 6.5201C41.7754 5.97092 40.885 5.97092 40.3359 6.5201L37.0213 9.83463C36.4721 10.3838 36.4721 11.2742 37.0213 11.8234ZM38.6461 15.8333C38.8471 16.5835 39.6182 17.0287 40.3684 16.8277L44.8961 15.6145C45.6463 15.4135 46.0915 14.6424 45.8905 13.8922C45.6895 13.142 44.9185 12.6968 44.1683 12.8979L39.6405 14.1111C38.8902 14.312 38.4451 15.0831 38.6461 15.8333ZM33.0114 10.1989C33.7615 10.3999 34.5326 9.95473 34.7336 9.20454L35.9469 4.67679C36.1479 3.9266 35.7026 3.15551 34.9525 2.95451C34.2024 2.75351 33.4313 3.19873 33.2303 3.94892L32.017 8.47667C31.816 9.22685 32.2612 9.99795 33.0114 10.1989Z"
-                        fill="url(#paint0_linear_39_134)" />
-                      <path
-                        d="M44.8379 19.7803H28.6292C27.7045 19.7803 27.0315 18.9033 27.2708 18.0101L28.9034 11.9173C29.3556 10.2295 28.3539 8.49443 26.666 8.04218C24.9782 7.58993 23.2432 8.59165 22.7909 10.2795L22.0139 13.1792C20.9707 17.0728 17.4423 19.7803 13.4112 19.7803H9.37695V41.3428H11.9551L12.6582 42.2803C13.3131 43.1536 14.1624 43.8624 15.1387 44.3505C16.1151 44.8387 17.1916 45.0928 18.2832 45.0928H30.5879C32.3354 45.0928 33.752 43.6763 33.752 41.9288C33.752 40.1813 32.3354 38.7647 30.5879 38.7647H32.4629C34.2104 38.7647 35.627 37.3481 35.627 35.6006C35.627 33.8531 34.2104 32.4366 32.4629 32.4366H34.3379C36.0854 32.4366 37.502 31.02 37.502 29.2725C37.502 27.525 36.0854 26.1085 34.3379 26.1085H44.8379C46.5854 26.1085 48.002 24.6919 48.002 22.9444C48.002 21.1969 46.5854 19.7803 44.8379 19.7803ZM5.1582 16.9678H1.4082C0.631578 16.9678 0.00195312 17.5975 0.00195312 18.3741V42.7491C0.00195312 43.5257 0.631578 44.1553 1.4082 44.1553H5.1582C5.93483 44.1553 6.56445 43.5257 6.56445 42.7491V18.3741C6.56445 17.5975 5.93483 16.9678 5.1582 16.9678Z"
-                        fill="url(#paint1_linear_39_134)" />
-                    </g>
-                    <defs>
-                      <lineargradient id="paint0_linear_39_134" x1="27.5112" y1="0.536386" x2="46.8219" y2="2.97622"
-                        gradientUnits="userSpaceOnUse">
-                        <stop stop-color="#330166" />
-                        <stop offset="1" stop-color="#D60BDE" />
-                      </lineargradient>
-                      <lineargradient id="paint1_linear_39_134" x1="-15.3138" y1="1.6298" x2="50.3464" y2="12.3457"
-                        gradientUnits="userSpaceOnUse">
-                        <stop stop-color="#330166" />
-                        <stop offset="1" stop-color="#D60BDE" />
-                      </lineargradient>
-                      <clippath id="clip0_39_134">
-                        <rect width="48" height="48" fill="white" />
-                      </clippath>
-                    </defs>
-                  </svg>
-                </div>
-                <div class="card-body px-0">
-                  <h6 class="card-title text-white fw text-wrap">
-                    Easy to use and efficient </h6>
-                  <p class="card-text  text-wrap" style="font-size: 14px;  font-weight: 300;">
-                    A fully featured eCommerce Platform A fully featured eCommerce Platform
-                  </p>
-                </div>
+                <p class="testimonial-text text-wrap">
+                  "Being in a different time zone from my main office used to be
+                  a challenge. But with 24/7 access to @comate co-working space,
+                  I can work efficiently, no matter the hour. The reliable
+                  high-speed internet is best."
+                </p>
               </div>
             </div>
-            <div class="col d-grid justify-content-center align-items-center">
-              <div class="card bg-card-color text-start border-0 shadow rounded-3 py-1 p-4">
-                <div class="icon">
-                  <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M0 41.4936C0 42.7965 1.06022 43.8567 2.36344 43.8567H45.6366C46.9398 43.8567 48 42.7965 48 41.4936V17.2683H0V41.4936ZM30.5314 27.0143C29.9506 26.4986 29.8974 25.6099 30.4131 25.0291C30.9287 24.4478 31.8174 24.3952 32.3983 24.9108L37.5817 29.5107C37.7304 29.6427 37.8494 29.8046 37.9309 29.9859C38.0123 30.1672 38.0545 30.3637 38.0545 30.5625C38.0545 30.7613 38.0123 30.9578 37.9309 31.1391C37.8494 31.3204 37.7304 31.4823 37.5817 31.6143L32.3983 36.2146C32.1414 36.4433 31.8094 36.5694 31.4655 36.5691C31.0774 36.5691 30.6911 36.4094 30.4131 36.0963C29.8974 35.5155 29.9506 34.6268 30.5314 34.1111L34.5296 30.5625L30.5314 27.0143ZM20.2877 34.4597L25.2766 25.8186C25.6647 25.1459 26.5251 24.9156 27.1977 25.3037C27.8701 25.6923 28.1005 26.5522 27.7123 27.2248L22.7234 35.8659C22.463 36.3172 21.9903 36.5694 21.5043 36.5694C21.2655 36.5694 21.0238 36.5087 20.8023 36.3808C20.1299 35.9927 19.8995 35.1324 20.2877 34.4597ZM10.4184 29.5107L15.6018 24.9108C16.1826 24.3952 17.0714 24.4478 17.587 25.0291C18.1027 25.6099 18.0495 26.4986 17.4687 27.0143L13.4705 30.5629L17.4687 34.1114C18.0495 34.6268 18.1027 35.5155 17.587 36.0967C17.4551 36.2456 17.2931 36.3647 17.1116 36.4462C16.9301 36.5278 16.7334 36.5697 16.5345 36.5694C16.2027 36.5694 15.8694 36.4526 15.6018 36.215L10.4183 31.6147C10.2696 31.4827 10.1506 31.3207 10.0691 31.1394C9.98756 30.9581 9.94541 30.7615 9.94541 30.5627C9.94541 30.3639 9.98756 30.1673 10.0691 29.986C10.1506 29.8047 10.2697 29.6427 10.4184 29.5107ZM48 6.58219C48 5.27906 46.9398 4.21875 45.6366 4.21875H2.36344C1.06031 4.21875 0 5.27897 0 6.58219V14.4558H48V6.58219ZM5.68284 11.346C4.57359 11.346 3.67416 10.4467 3.67416 9.33741C3.67416 8.22816 4.57359 7.32872 5.68284 7.32872C6.79209 7.32872 7.69153 8.22816 7.69153 9.33741C7.69153 10.4467 6.79209 11.346 5.68284 11.346ZM11.5141 11.346C10.4047 11.346 9.50578 10.4467 9.50578 9.33741C9.50578 8.22816 10.4048 7.32872 11.514 7.32872C12.6236 7.32872 13.5227 8.22816 13.5227 9.33741C13.5227 10.4467 12.6237 11.346 11.5141 11.346ZM42.8167 10.7437H29.0719C28.2952 10.7437 27.6656 10.1141 27.6656 9.33741C27.6656 8.56069 28.2952 7.93116 29.0719 7.93116H42.8166C43.5929 7.93116 44.2228 8.56069 44.2228 9.33741C44.2228 10.1141 43.5933 10.7437 42.8166 10.7437H42.8167Z"
-                      fill="url(#paint0_linear_39_142)" />
-                    <defs>
-                      <lineargradient id="paint0_linear_39_142" x1="21.7397" y1="17.6957" x2="49.3766" y2="17.6679"
-                        gradientUnits="userSpaceOnUse">
-                        <stop stop-color="#D60BDE" />
-                        <stop offset="1" stop-color="#324E8E" />
-                      </lineargradient>
-                    </defs>
-                  </svg>
+            <div class="col d-grid justify-content-center">
+              <div class="testimonial-card">
+                <div class="profile-info mb-3">
+                  <img
+                    src="./assets/image/Image-2.png"
+                    alt="Profile Image"
+                    class="profile-img"
+                  />
+                  <div>
+                    <p class="name mb-0">Leonard Thompson</p>
+                    <p class="title mb-0">CEO cogentnetworks</p>
+                  </div>
                 </div>
-                <div class="card-body px-0">
-                  <h6 class="card-title text-white  fw text-wrap">
-                    No Code Platform </h6>
-                  <p class="card-text  text-wrap" style="font-size: 14px;  font-weight: 300;">
-                    A fully featured eCommerce Platform A fully featured eCommerce Platform
-                  </p>
+                <div class="stars mb-2">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                  <span class="ms-2">4.0</span>
                 </div>
+                <p class="testimonial-text text-wrap">
+                  "Being in a different time zone from my main office used to be
+                  a challenge. But with 24/7 access to @comate co-working space,
+                  I can work efficiently, no matter the hour. The reliable
+                  high-speed internet is best."
+                </p>
               </div>
             </div>
-
-            <div class="col d-grid justify-content-center align-items-center">
-              <div class="card bg-card-color text-start border-0 shadow rounded-3 py-1 p-4">
-                <div class="icon">
-                  <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M15 3C13.8065 3 12.6619 3.47411 11.818 4.31802C10.9741 5.16193 10.5 6.30653 10.5 7.5V15H13.5V7.5C13.5 7.10218 13.658 6.72064 13.9393 6.43934C14.2206 6.15804 14.6022 6 15 6H19.0455L21.504 7.638C22.2432 8.13074 23.1116 8.39367 24 8.39367C24.8884 8.39367 25.7568 8.13074 26.496 7.638L28.9545 6H33C33.3978 6 33.7794 6.15804 34.0607 6.43934C34.342 6.72064 34.5 7.10218 34.5 7.5V15H37.5V7.5C37.5 6.30653 37.0259 5.16193 36.182 4.31802C35.3381 3.47411 34.1935 3 33 3H15ZM10.5 40.5V33H13.5V40.5C13.5 40.8978 13.658 41.2794 13.9393 41.5607C14.2206 41.842 14.6022 42 15 42H33C33.3978 42 33.7794 41.842 34.0607 41.5607C34.342 41.2794 34.5 40.8978 34.5 40.5V33H37.5V40.5C37.5 41.6935 37.0259 42.8381 36.182 43.682C35.3381 44.5259 34.1935 45 33 45H15C13.8065 45 12.6619 44.5259 11.818 43.682C10.9741 42.8381 10.5 41.6935 10.5 40.5ZM7.5 18C6.70435 18 5.94129 18.3161 5.37868 18.8787C4.81607 19.4413 4.5 20.2044 4.5 21V27C4.5 27.7956 4.81607 28.5587 5.37868 29.1213C5.94129 29.6839 6.70435 30 7.5 30H13.5C14.2956 30 15.0587 29.6839 15.6213 29.1213C16.1839 28.5587 16.5 27.7956 16.5 27V21C16.5 20.2044 16.1839 19.4413 15.6213 18.8787C15.0587 18.3161 14.2956 18 13.5 18H7.5ZM21 18C20.2044 18 19.4413 18.3161 18.8787 18.8787C18.3161 19.4413 18 20.2044 18 21V27C18 27.7956 18.3161 28.5587 18.8787 29.1213C19.4413 29.6839 20.2044 30 21 30H27C27.7956 30 28.5587 29.6839 29.1213 29.1213C29.6839 28.5587 30 27.7956 30 27V21C30 20.2044 29.6839 19.4413 29.1213 18.8787C28.5587 18.3161 27.7956 18 27 18H21ZM31.5 21C31.5 20.2044 31.8161 19.4413 32.3787 18.8787C32.9413 18.3161 33.7044 18 34.5 18H40.5C41.2957 18 42.0587 18.3161 42.6213 18.8787C43.1839 19.4413 43.5 20.2044 43.5 21V27C43.5 27.7956 43.1839 28.5587 42.6213 29.1213C42.0587 29.6839 41.2957 30 40.5 30H34.5C33.7044 30 32.9413 29.6839 32.3787 29.1213C31.8161 28.5587 31.5 27.7956 31.5 27V21Z"
-                      fill="url(#paint0_linear_39_170)" />
-                    <defs>
-                      <lineargradient id="paint0_linear_39_170" x1="22.1635" y1="17.28" x2="44.6185" y2="17.2627"
-                        gradientUnits="userSpaceOnUse">
-                        <stop stop-color="#D60BDE" />
-                        <stop offset="1" stop-color="#324E8E" />
-                      </lineargradient>
-                    </defs>
-                  </svg>
+            <div class="col d-grid justify-content-center">
+              <div class="testimonial-card">
+                <div class="profile-info mb-3">
+                  <img
+                    src="./assets/image/Image-3.png"
+                    alt="Profile Image"
+                    class="profile-img"
+                  />
+                  <div>
+                    <p class="name mb-0">Stewart Gonzalez</p>
+                    <p class="title mb-0">CEO cogentnetworks</p>
+                  </div>
                 </div>
-                <div class="card-body px-0">
-                  <h6 class="card-title text-white  fw text-wrap">
-                    No Additional Apps
-                  </h6>
-                  <p class="card-text  text-wrap" style="font-size: 14px;  font-weight: 300;">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
+                <div class="stars mb-2">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                  <span class="ms-2">4.0</span>
                 </div>
+                <p class="testimonial-text text-wrap">
+                  "Being in a different time zone from my main office used to be
+                  a challenge. But with 24/7 access to @comate co-working space,
+                  I can work efficiently, no matter the hour. The reliable
+                  high-speed internet is best."
+                </p>
               </div>
             </div>
-            <div class="col d-grid justify-content-center align-items-center">
-              <div class="card bg-card-color text-start border-0 shadow rounded-3 py-1 p-4">
-                <div class="icon">
-                  <img src="/assets/image/offerImg5.svg" alt=" Multiple Staff Accounts" width="48" height="48">
+            <div class="col d-grid justify-content-center">
+              <div class="testimonial-card">
+                <div class="profile-info mb-3">
+                  <img
+                    src="./assets/image/Image-4.png"
+                    alt="Profile Image"
+                    class="profile-img"
+                  />
+                  <div>
+                    <p class="name mb-0">Stewart Gonzalez</p>
+                    <p class="title mb-0">CEO cogentnetworks</p>
+                  </div>
                 </div>
-                <div class="card-body px-0">
-                  <h6 class="card-title text-white fw text-wrap">
-                    Multiple Staff Accounts
-                  </h6>
-                  <p class="card-text  text-wrap" style="font-size: 14px;  font-weight: 300;">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
+                <div class="stars mb-2">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                  <span class="ms-2">4.0</span>
                 </div>
+                <p class="testimonial-text text-wrap">
+                  "Being in a different time zone from my main office used to be
+                  a challenge. But with 24/7 access to @comate co-working space,
+                  I can work efficiently, no matter the hour. The reliable
+                  high-speed internet is best."
+                </p>
               </div>
             </div>
-
-            <div class="col d-grid justify-content-center align-items-center">
-              <div class="card bg-card-color text-start border-0 shadow rounded-3 py-1 p-4">
-                <div class="icon">
-                  <img src="/assets/image/offerImg5.svg" alt=" Multiple Staff Accounts" width="48" height="48">
-
+            <div class="col d-grid justify-content-center">
+              <div class="testimonial-card">
+                <div class="profile-info mb-3">
+                  <img
+                    src="./assets/image/Image-4.png"
+                    alt="Profile Image"
+                    class="profile-img"
+                  />
+                  <div>
+                    <p class="name mb-0">Stewart Gonzalez</p>
+                    <p class="title mb-0">CEO cogentnetworks</p>
+                  </div>
                 </div>
-                <div class="card-body px-0">
-                  <h6 class="card-title text-white fw text-wrap">
-                    Multiple Staff Accounts
-                  </h6>
-                  <p class="card-text text-wrap" style="font-size: 14px;  font-weight: 300;">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
+                <div class="stars mb-2">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                  <span class="ms-2">4.0</span>
                 </div>
+                <p class="testimonial-text text-wrap">
+                  "Being in a different time zone from my main office used to be
+                  a challenge. But with 24/7 access to @comate co-working space,
+                  I can work efficiently, no matter the hour. The reliable
+                  high-speed internet is best."
+                </p>
               </div>
             </div>
           </div>
         </div>
-        <div class="mt-3 mb-5">
-          <div class="row row-cols-lg-4 row-cols-md-2 g-0 row-cols-1 flex-nowrap">
-            <div class="col d-grid justify-content-center align-items-center">
-              <div class="card bg-card-color text-start border-0 shadow rounded-3 py-1 p-4">
-                <div class="icon">
-                  <img src="/assets/image/offerSectionImg.svg" alt=" Multiple Staff Accounts" width="48" height="48">
-                </div>
-                <div class="card-body px-0">
-                  <h6 class="card-title text-white fw text-wrap">
-                    Manage Inventory </h6>
-                  <p class="card-text  text-wrap" style="font-size: 14px; font-weight: 300;">
-                    A fully featured eCommerce Platform A fully featured eCommerce Platform .
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col d-grid justify-content-center align-items-center">
-              <div class="card bg-card-color text-start border-0 shadow rounded-3 py-1 p-4">
-                <div class="icon">
-                  <img src="/assets/image/offerImg2.svg" alt="Manage Store Orders" width="48" height="48">
 
-                </div>
-                <div class="card-body px-0">
-                  <h6 class="card-title text-white fw text-wrap">
-                    Manage Store Orders </h6>
-                  <p class="card-text  text-wrap" style="font-size: 14px;  font-weight: 300;">
-                    A fully featured eCommerce Platform A fully featured eCommerce Platform
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col d-grid justify-content-center align-items-center">
-              <div class="card bg-card-color text-start border-0 shadow rounded-3 py-1 p-4">
-                <div class="icon">
-                  <img src="/assets/image/offerImg3.svg" alt=" Unique Product Reports " width="48" height="48">
-                </div>
-                <div class="card-body px-0">
-                  <h6 class="card-title text-white fw  text-wrap">
-                    Unique Product Reports </h6>
-                  <p class="card-text  text-wrap" style="font-size: 14px;  font-weight: 300;">
-                    A fully featured eCommerce Platform A fully featured eCommerce Platform
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col d-grid justify-content-center align-items-center">
-              <div class="card bg-card-color text-start border-0 shadow rounded-3 py-1 p-4">
-                <div class="icon">
-                  <img src="/assets/image/offerImg4.svg" alt=" Multiple Templates " width="48" height="48">
-                </div>
-                <div class="card-body px-0">
-                  <h6 class="card-title text-white fw  text-wrap">
-                    Multiple Templates </h6>
-                  <p class="card-text text-wrap" style="font-size: 14px;  font-weight: 300;">
-                    A fully featured eCommerce Platform A fully featured eCommerce Platform
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col d-grid justify-content-center align-items-center">
-              <div class="card bg-card-color text-start border-0 shadow rounded-3 py-1 p-4">
-                <div class="icon">
-                  <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M15 3C13.8065 3 12.6619 3.47411 11.818 4.31802C10.9741 5.16193 10.5 6.30653 10.5 7.5V15H13.5V7.5C13.5 7.10218 13.658 6.72064 13.9393 6.43934C14.2206 6.15804 14.6022 6 15 6H19.0455L21.504 7.638C22.2432 8.13074 23.1116 8.39367 24 8.39367C24.8884 8.39367 25.7568 8.13074 26.496 7.638L28.9545 6H33C33.3978 6 33.7794 6.15804 34.0607 6.43934C34.342 6.72064 34.5 7.10218 34.5 7.5V15H37.5V7.5C37.5 6.30653 37.0259 5.16193 36.182 4.31802C35.3381 3.47411 34.1935 3 33 3H15ZM10.5 40.5V33H13.5V40.5C13.5 40.8978 13.658 41.2794 13.9393 41.5607C14.2206 41.842 14.6022 42 15 42H33C33.3978 42 33.7794 41.842 34.0607 41.5607C34.342 41.2794 34.5 40.8978 34.5 40.5V33H37.5V40.5C37.5 41.6935 37.0259 42.8381 36.182 43.682C35.3381 44.5259 34.1935 45 33 45H15C13.8065 45 12.6619 44.5259 11.818 43.682C10.9741 42.8381 10.5 41.6935 10.5 40.5ZM7.5 18C6.70435 18 5.94129 18.3161 5.37868 18.8787C4.81607 19.4413 4.5 20.2044 4.5 21V27C4.5 27.7956 4.81607 28.5587 5.37868 29.1213C5.94129 29.6839 6.70435 30 7.5 30H13.5C14.2956 30 15.0587 29.6839 15.6213 29.1213C16.1839 28.5587 16.5 27.7956 16.5 27V21C16.5 20.2044 16.1839 19.4413 15.6213 18.8787C15.0587 18.3161 14.2956 18 13.5 18H7.5ZM21 18C20.2044 18 19.4413 18.3161 18.8787 18.8787C18.3161 19.4413 18 20.2044 18 21V27C18 27.7956 18.3161 28.5587 18.8787 29.1213C19.4413 29.6839 20.2044 30 21 30H27C27.7956 30 28.5587 29.6839 29.1213 29.1213C29.6839 28.5587 30 27.7956 30 27V21C30 20.2044 29.6839 19.4413 29.1213 18.8787C28.5587 18.3161 27.7956 18 27 18H21ZM31.5 21C31.5 20.2044 31.8161 19.4413 32.3787 18.8787C32.9413 18.3161 33.7044 18 34.5 18H40.5C41.2957 18 42.0587 18.3161 42.6213 18.8787C43.1839 19.4413 43.5 20.2044 43.5 21V27C43.5 27.7956 43.1839 28.5587 42.6213 29.1213C42.0587 29.6839 41.2957 30 40.5 30H34.5C33.7044 30 32.9413 29.6839 32.3787 29.1213C31.8161 28.5587 31.5 27.7956 31.5 27V21Z"
-                      fill="url(#paint0_linear_39_170)" />
-                    <defs>
-                      <lineargradient id="paint0_linear_39_170" x1="22.1635" y1="17.28" x2="44.6185" y2="17.2627"
-                        gradientUnits="userSpaceOnUse">
-                        <stop stop-color="#D60BDE" />
-                        <stop offset="1" stop-color="#324E8E" />
-                      </lineargradient>
-                    </defs>
-                  </svg>
-                </div>
-                <div class="card-body px-0">
-                  <h6 class="card-title text-white fw  text-wrap">
-                    No Additional Apps
-                  </h6>
-                  <p class="card-text text-wrap" style="font-size: 14px;  font-weight: 300;">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                </div>
-              </div>
-            </div>
+        <div class="row mt-5 justify-content-center">
+          <div class="col-auto">
+            <button class="btn btn-get-started border-0">Explore more</button>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- section five  -->
-  <section class="bg-color-change pt-4">
-    <div class="container py-5">
-      <div class="row">
-        <div class="col-lg-6 col-md-12 col-12">
-          <h2 class="text-white fw-bold ">
-            Apply your <span class="text-gradient">own theming </span>decisions.
-          </h2>
-          <p class="bg-light-gray mb-4 fs-18 ">
-            Unleash your creativity with ZtoreSpot's theme customization
-            feature! Whether you prefer bold and vibrant colors or a sleek and
-            minimalist look, ZtoreSpot has got you covered.
-          </p>
-          <button class="btn btn-get-started border-0">Learn More</button>
-        </div>
-        <div class="col-lg-6 col-md-12 col-12 text-center">
-          <div class="position-relative">
-            <img src="./assets/image/hero-ventor2.png" class="position-absolute z-0 animate-img-4" width="90"
-              style="bottom: -20rem; left: -11%" alt="" />
-            <img src="./assets/image/hero-ventor1.png" class="position-absolute z-0 animation-img-3" width="90"
-              style="top: 30%; left: 85%" alt="" />
+    <!-- section eight  -->
+    <section class="bg-black pb-5">
+      <div class="container">
+        <div class="row text-center justify-content-center">
+          <div class="col-lg-7 col-md-10 col-12">
+            <h1 class="text-white fw-bold pt-4">
+              Frequently<span class="text-gradient"> asked questions </span>
+            </h1>
+            <p class="bg-light-gray mt-2">
+              A fully featured eCommerce Platform
+            </p>
           </div>
-          <img src="./assets/image/Group.png" class="w-100" alt />
         </div>
-      </div>
-
-      <div class="row mt-5">
-        <div class="col-lg-6 col-md-12 col-12 text-center">
-          <div class="position-relative">
-            <img src="./assets/image/hero-ventor2.png" class="position-absolute z-0 animate-img-4" width="90"
-              style="bottom: -20rem; left: -11%" alt="" />
-            <img src="./assets/image/hero-ventor1.png" class="position-absolute z-0 animation-img-3" width="90"
-              style="top: 30%; left: 85%" alt="" />
-          </div>
-          <img src="./assets/image/Group-2.png" class="w-100" alt />
-        </div>
-        <div class="col-lg-6 col-md-12 col-12">
-          <h2 class="text-white fw-bold mt-lg-0 mt-3">
-            Export your <span class="text-gradient">store reports </span> in a
-            second
-          </h2>
-          <p class="bg-light-gray mb-4 fs-18">
-            Keep track of your progress and stay on top of your goals with
-            ZtoreSpot's powerful reporting feature! Whether you need to
-            generate yearly, monthly, or weekly reports, ZtoreSpot makes it
-            easy to check and export the data you need.
-          </p>
-          <button class="btn btn-get-started border-0 mt-2 mb-5">
-            learn more
-          </button>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- section six   -->
-  <section class="bg-black pt-5">
-
-    <div class="container">
-      <div class="row text-center justify-content-center">
-        <div class="">
-          <h1 class="text-white fw-bold pt-4 ">
-            Get started with a Welcome <br />plan and
-            <span class="text-gradient">start business </span>
-          </h1>
-          <p class="bg-light-gray fs-18 mt-4">Explore Some Examples</p>
-        </div>
-      </div>
-      <div class="row mt-5">
-        <div class="col-lg-3 col-md-6 col-12 d-grid justify-content-center px-1">
-          <div class="pricing-shadow rounded-3">
-            <div class="pricing-card h-100">
-              <h4 class="mb-3">Welcome</h4>
-              <p class="fs-14 textGray" style="font-size: 13px;">
-                Start your dream online store for just ₹199/1 month with GST.
-              </p>
-              <div class="price">
-                <h3 class="">$2,500</h3>
-                <h6 class="d-block">Month</h6>
-              </div>
-              <a href="./offer-page.html" class="text-white">
-                <button class="btn btn-custom fw-medium">Get started</button>
-              </a>
-              <ul class="features mt-4">
-                <li class="fs-16 textGrey">
-                  <div class="checkbox-icon">
-                    <i class="fa-solid fa-check"></i>
+        <div class="row">
+          <div class="accordion" id="accordionExample">
+            <div class="pricing-shadow mt-2">
+              <div class="accordion-item border-black">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button accordion-color text-white rounded-0"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    What is Ztorespot.com
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body accordion-color bg-light-gray">
+                    Ztorespot.com is a DIY platform that allows anyone to create
+                    their dream online store within 5 minutes.
                   </div>
-                  1 Online Store
-                </li>
-                <li class="fs-16 textGrey">
-                  <div class="checkbox-icon">
-                    <i class="fa-solid fa-check"></i>
-                  </div>
-                  30 Products
-                </li>
-                <li class="fs-16 textGrey">
-                  <div class="checkbox-icon">
-                    <i class="fa-solid fa-check"></i>
-                  </div>
-                  10 Categories
-                </li>
-                <li class="fs-16 textGrey">
-                  <div class="checkbox-icon">
-                    <i class="fa-solid fa-check"></i>
-                  </div>
-                  Unlimited Orders
-                </li>
-                <li class="fs-16 textGrey">
-                  <div class="checkbox-icon">
-                    <i class="fa-solid fa-check"></i>
-                  </div>
-                  Unlimited Customers
-                </li>
-              </ul>
-
-              <div class="more-features">
-                <button class="btn fs-16 rounded-5 w-100 justify-content-between">
-                  Show more features
-                  <i class="fa-solid fa-arrow-right" style="color: #ffffff"></i>
-                </button>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-12 d-grid justify-content-center px-1">
-          <div class="pricing-shadow rounded-3">
-            <div class="pricing-card h-100">
-              <h4 class="mb-3">Starter Plan</h4>
-              <p class="textGray" style="font-size: 13px;">
-                Elevate Your E-commerce Journey with this Starter Plan at Just ₹799/3 </p>
-              <div class="price">
-                <h3 class="">$5,500</h3>
-                <h6 class="d-block">Month</h6>
-              </div>
-              <a href="./offer-page.html" class="text-white">
-                <button class="btn btn-custom fw-medium">Get started</button>
-              </a>
-              <ul class="features mt-4">
-                <li class="fs-14 textGrey">
-                  <div class="checkbox-icon">
-                    <i class="fa-solid fa-check"></i>
+            <div class="pricing-shadow mt-2">
+              <div class="accordion-item border-black">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed accordion-color text-white"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    How is Ztorespot.com different from other e-commerce platfor
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body accordion-color bg-light-gray">
+                    Ztorespot.com is a DIY platform that allows anyone to create
+                    their dream online store within 5 minutes. It's an ideal
+                    solution for small and medium-scale business owners,
+                    including those running offline stores such as grocery
+                    shops, apparel stores, snack vendors, restaurants, homemade
+                    business owners, and more.
                   </div>
-                  1 Online Store
-                </li>
-                <li class="fs-14 textGrey">
-                  <div class="checkbox-icon">
-                    <i class="fa-solid fa-check"></i>
-                  </div>
-                  30 Products
-                </li>
-                <li class="fs-14 textGrey">
-                  <div class="checkbox-icon">
-                    <i class="fa-solid fa-check"></i>
-                  </div>
-                  10 Categories
-                </li>
-                <li class="fs-14 textGrey">
-                  <div class="checkbox-icon">
-                    <i class="fa-solid fa-check"></i>
-                  </div>
-                  Unlimited Orders
-                </li>
-                <li class="fs-14 textGrey">
-                  <div class="checkbox-icon">
-                    <i class="fa-solid fa-check"></i>
-                  </div>
-                  Unlimited Customers
-                </li>
-              </ul>
-
-              <div class="more-features">
-                <button class="btn fs-16 rounded-5 w-100 justify-content-between">
-                  Show more features
-                  <i class="fa-solid fa-arrow-right" style="color: #ffffff"></i>
-                </button>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-12 d-grid justify-content-center px-1">
-          <div class="pricing-shadow rounded-3">
-            <div class="pricing-card h-100">
-              <h4 class="mb-3">Intermediate</h4>
-              <p class="fs-14 textGray" style="font-size: 13px;">
-                Get Selling with Our Intermediate Plan at ₹2400 for 1 year with GST </p>
-              <div class="price">
-                <h3 class="">$10,500</h3>
-                <h6 class="d-block">Month</h6>
-              </div>
-              <a href="./offer-page.html" class="text-white">
-                <button class="btn btn-custom fw-medium">Get started</button>
-              </a>
-              <ul class="features mt-4">
-                <li class="fs-16 textGrey">
-                  <div class="checkbox-icon">
-                    <i class="fa-solid fa-check"></i>
+            <div class="pricing-shadow mt-2">
+              <div class="accordion-item border-black">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed accordion-color text-white"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    Is Ztorespot.com affordable compared to other e-commerce
+                    platforms?
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body accordion-color bg-light-gray">
+                    Ztorespot.com is a DIY platform that allows anyone to create
+                    their dream online store within 5 minutes. It's an ideal
+                    solution for small and medium-scale business owners,
+                    including those running offline stores such as grocery
+                    shops, apparel stores, snack vendors, restaurants, homemade
+                    business owners, and more.
                   </div>
-                  1 Online Store
-                </li>
-                <li class="fs-16 textGrey">
-                  <div class="checkbox-icon">
-                    <i class="fa-solid fa-check"></i>
-                  </div>
-                  30 Products
-                </li>
-                <li class="fs-16 textGrey">
-                  <div class="checkbox-icon">
-                    <i class="fa-solid fa-check"></i>
-                  </div>
-                  10 Categories
-                </li>
-                <li class="fs-16 textGrey">
-                  <div class="checkbox-icon">
-                    <i class="fa-solid fa-check"></i>
-                  </div>
-                  Unlimited Orders
-                </li>
-                <li class="fs-16 textGrey">
-                  <div class="checkbox-icon">
-                    <i class="fa-solid fa-check"></i>
-                  </div>
-                  Unlimited Customers
-                </li>
-              </ul>
-
-              <div class="more-features">
-                <button class="btn fs-16 rounded-5 w-100 justify-content-between">
-                  Show more features
-                  <i class="fa-solid fa-arrow-right" style="color: #ffffff"></i>
-                </button>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-12 d-grid justify-content-center px-1">
-          <div class="pricing-shadow rounded-3">
-            <div class="pricing-card h-100">
-              <h4 class="mb-3">Professional</h4>
-              <p class="fs-14 textGray" style="font-size: 13px;">
-                Kickstart Your E-commerce Success at ₹2899 for 1 year +GST. </p>
-              <div class="price">
-                <h3 class="">$10,500</h3>
-                <h6 class="d-block">Month</h6>
+            <div class="pricing-shadow mt-2">
+              <div class="accordion-item border-black">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed accordion-color text-white"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour"
+                    aria-expanded="false"
+                    aria-controls="collapseFour"
+                  >
+                    What types of businesses is Ztorespot.com suitable for?
+                  </button>
+                </h2>
+                <div
+                  id="collapseFour"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body accordion-color bg-light-gray">
+                    Ztorespot.com is a DIY platform that allows anyone to create
+                    their dream online store within 5 minutes. It's an ideal
+                    solution for small and medium-scale business owners,
+                    including those running offline stores such as grocery
+                    shops, apparel stores, snack vendors, restaurants, homemade
+                    business owners, and more.
+                  </div>
+                </div>
               </div>
-              <a href="./offer-page.html" class="text-white">
-                <button class="btn btn-custom fw-medium">Get started</button>
-              </a>
-              <ul class="features mt-4">
-                <li class="fs-16 textGrey">
-                  <div class="checkbox-icon">
-                    <i class="fa-solid fa-check"></i>
+            </div>
+            <div class="pricing-shadow mt-2">
+              <div class="accordion-item border-black">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed accordion-color text-white"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFive"
+                    aria-expanded="false"
+                    aria-controls="collapseFive"
+                  >
+                    Do I need coding skills to use Ztorespot.com?
+                  </button>
+                </h2>
+                <div
+                  id="collapseFive"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body accordion-color bg-light-gray">
+                    Ztorespot.com is a DIY platform that allows anyone to create
+                    their dream online store within 5 minutes. It's an ideal
+                    solution for small and medium-scale business owners,
+                    including those running offline stores such as grocery
+                    shops, apparel stores, snack vendors, restaurants, homemade
+                    business owners, and more.
                   </div>
-                  1 Online Store
-                </li>
-                <li class="fs-16 textGrey">
-                  <div class="checkbox-icon">
-                    <i class="fa-solid fa-check"></i>
+                </div>
+              </div>
+            </div>
+            <div class="pricing-shadow mt-2">
+              <div class="accordion-item border-black">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed accordion-color text-white rounded-0"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseSix"
+                    aria-expanded="false"
+                    aria-controls="collapseSix"
+                  >
+                    Is there a free trial available?
+                  </button>
+                </h2>
+                <div
+                  id="collapseSix"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body accordion-color bg-light-gray">
+                    Ztorespot.com is a DIY platform that allows anyone to create
+                    their dream online store within 5 minutes. It's an ideal
+                    solution for small and medium-scale business owners,
+                    including those running offline stores such as grocery
+                    shops, apparel stores, snack vendors, restaurants, homemade
+                    business owners, and more.
                   </div>
-                  30 Products
-                </li>
-                <li class="fs-16 textGrey">
-                  <div class="checkbox-icon">
-                    <i class="fa-solid fa-check"></i>
-                  </div>
-                  10 Categories
-                </li>
-                <li class="fs-16 textGrey">
-                  <div class="checkbox-icon">
-                    <i class="fa-solid fa-check"></i>
-                  </div>
-                  Unlimited Orders
-                </li>
-                <li class="fs-16 textGrey">
-                  <div class="checkbox-icon">
-                    <i class="fa-solid fa-check"></i>
-                  </div>
-                  Unlimited Customers
-                </li>
-              </ul>
-
-              <div class="more-features">
-                <button class="btn fs-16 rounded-5 w-100 justify-content-between">
-                  Show more features
-                  <i class="fa-solid fa-arrow-right" style="color: #ffffff"></i>
-                </button>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- section saveen  -->
-  <section class="bg-black pt-5 pb-5">
-    <div class="container-fluid">
-      <div class="row text-center justify-content-center">
-        <div class="col">
-          <h1 class="text-white fw-bold pt-4">
-            What our customers<span class="text-gradient"> are saying </span>
-          </h1>
-          <p class="bg-light-gray mt-2">
-            A fully featured eCommerce Platform
+    <!-- footer  -->
+
+    <footer class="text-light pt-5 pb-4">
+      <div class="container rounded-4">
+        <div class="row">
+          <div class="col-lg-5 col-md-6 mb-4">
+            <div class="">
+              <img src="./assets/image/logo.png" alt="" />
+            </div>
+            <p class="w-75">
+              Lorem ipsum dolor sit amet consectetur commodo ultricies.
+            </p>
+            <div class="d-flex">
+              <a href="#" class="me-3 text-light"
+                ><i class="bi bi-facebook"></i
+              ></a>
+              <a href="#" class="me-3 text-light"
+                ><i class="bi bi-twitter"></i
+              ></a>
+              <a href="#" class="me-3 text-light"
+                ><i class="bi bi-instagram"></i
+              ></a>
+              <a href="#" class="text-light"><i class="bi bi-linkedin"></i></a>
+            </div>
+            <div class="my-2">
+              <i
+                class="fa-brands fa-facebook-f me-2"
+                style="color: #ffffff"
+              ></i>
+              <i class="fa-brands fa-twitter me-2" style="color: #ffffff"></i>
+              <i
+                class="fa-brands fa-square-instagram me-2"
+                style="color: #ffffff"
+              ></i>
+              <i class="fa-brands fa-linkedin-in" style="color: #ffffff"></i>
+            </div>
+            <p class="mt-2">Made In : India</p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 mb-4">
+            <h5 class="fw-semibold fs-2o">Link</h5>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-light">Banned Items</a></li>
+              <li><a href="#" class="text-light">Terms and Conditions</a></li>
+              <li><a href="#" class="text-light">Privacy Policies</a></li>
+              <li><a href="#" class="text-light">Refund Policies</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-6 mb-4">
+            <h5 class="fw-semibold fs-20">Follow</h5>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-light">Facebook</a></li>
+              <li><a href="#" class="text-light">LinkedIn</a></li>
+              <li><a href="#" class="text-light">YouTube</a></li>
+              <li><a href="#" class="text-light">Tweeter</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4">
+            <h5 class="fw-semibold fs-20">Address</h5>
+            <p>
+              No 1, Sivan Kovil Street<br />
+              Needamangalam, Thiruvarur Dt,<br />
+              Tamilnadu 614404
+            </p>
+            <p>GSTIN: 33AACCC2135N1</p>
+            <p>CIN: U62099TN2023PTC161145</p>
+          </div>
+        </div>
+
+        <div class="text-center mt-4">
+          <p class="m-0">
+            © Milestone Technology Solution Private Limited. All Rights
+            Reserved, 2024.
           </p>
         </div>
       </div>
+    </footer>
 
-      <div class="scrollable-row-container mt-3">
-        <div class="row flex-nowrap g-2">
-          <div class="col d-grid justify-content-center">
-            <div class="testimonial-card">
-              <div class="profile-info mb-3">
-                <img src="./assets/image/Image-1.png" alt="Profile Image" class="profile-img" />
-                <div>
-                  <p class="name mb-0">Gordon Wilson</p>
-                  <p class="title mb-0">CEO cogentnetworks</p>
-                </div>
-              </div>
-              <div class="stars mb-2">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-                <span class="ms-2">4.0</span>
-              </div>
-              <p class="testimonial-text text-wrap">
-                "Being in a different time zone from my main office used to be
-                a challenge. But with 24/7 access to @comate co-working space,
-                I can work efficiently, no matter the hour. The reliable
-                high-speed internet is best."
-              </p>
-            </div>
-          </div>
-          <div class="col d-grid justify-content-center">
-            <div class="testimonial-card">
-              <div class="profile-info mb-3">
-                <img src="./assets/image/Image-2.png" alt="Profile Image" class="profile-img" />
-                <div>
-                  <p class="name mb-0">Leonard Thompson</p>
-                  <p class="title mb-0">CEO cogentnetworks</p>
-                </div>
-              </div>
-              <div class="stars mb-2">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-                <span class="ms-2">4.0</span>
-              </div>
-              <p class="testimonial-text text-wrap">
-                "Being in a different time zone from my main office used to be
-                a challenge. But with 24/7 access to @comate co-working space,
-                I can work efficiently, no matter the hour. The reliable
-                high-speed internet is best."
-              </p>
-            </div>
-          </div>
-          <div class="col d-grid justify-content-center">
-            <div class="testimonial-card">
-              <div class="profile-info mb-3">
-                <img src="./assets/image/Image-3.png" alt="Profile Image" class="profile-img" />
-                <div>
-                  <p class="name mb-0">Stewart Gonzalez</p>
-                  <p class="title mb-0">CEO cogentnetworks</p>
-                </div>
-              </div>
-              <div class="stars mb-2">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-                <span class="ms-2">4.0</span>
-              </div>
-              <p class="testimonial-text text-wrap">
-                "Being in a different time zone from my main office used to be
-                a challenge. But with 24/7 access to @comate co-working space,
-                I can work efficiently, no matter the hour. The reliable
-                high-speed internet is best."
-              </p>
-            </div>
-          </div>
-          <div class="col d-grid justify-content-center">
-            <div class="testimonial-card">
-              <div class="profile-info mb-3">
-                <img src="./assets/image/Image-4.png" alt="Profile Image" class="profile-img" />
-                <div>
-                  <p class="name mb-0">Stewart Gonzalez</p>
-                  <p class="title mb-0">CEO cogentnetworks</p>
-                </div>
-              </div>
-              <div class="stars mb-2">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-                <span class="ms-2">4.0</span>
-              </div>
-              <p class="testimonial-text text-wrap">
-                "Being in a different time zone from my main office used to be
-                a challenge. But with 24/7 access to @comate co-working space,
-                I can work efficiently, no matter the hour. The reliable
-                high-speed internet is best."
-              </p>
-            </div>
-          </div>
-          <div class="col d-grid justify-content-center">
-            <div class="testimonial-card">
-              <div class="profile-info mb-3">
-                <img src="./assets/image/Image-4.png" alt="Profile Image" class="profile-img" />
-                <div>
-                  <p class="name mb-0">Stewart Gonzalez</p>
-                  <p class="title mb-0">CEO cogentnetworks</p>
-                </div>
-              </div>
-              <div class="stars mb-2">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-                <span class="ms-2">4.0</span>
-              </div>
-              <p class="testimonial-text text-wrap">
-                "Being in a different time zone from my main office used to be
-                a challenge. But with 24/7 access to @comate co-working space,
-                I can work efficiently, no matter the hour. The reliable
-                high-speed internet is best."
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row mt-5 justify-content-center">
-        <div class="col-auto">
-          <button class="btn btn-get-started border-0">Explore more</button>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- section eight  -->
-  <section class="bg-black pb-5">
-    <div class="container">
-      <div class="row text-center justify-content-center">
-        <div class="col-lg-7 col-md-10 col-12">
-          <h1 class="text-white fw-bold pt-4 ">
-            Frequently<span class="text-gradient"> asked questions </span>
-          </h1>
-          <p class="bg-light-gray mt-2 ">
-            A fully featured eCommerce Platform
-          </p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="accordion" id="accordionExample">
-          <div class="pricing-shadow mt-2">
-            <div class="accordion-item border-black">
-              <h2 class="accordion-header">
-                <button class="accordion-button accordion-color text-white rounded-0" type="button"
-                  data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
-                  aria-controls="collapseOne">
-                  What is Ztorespot.com
-                </button>
-              </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                <div class="accordion-body accordion-color bg-light-gray">
-                  Ztorespot.com is a DIY platform that allows anyone to create
-                  their dream online store within 5 minutes.
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="pricing-shadow mt-2">
-            <div class="accordion-item border-black">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed accordion-color text-white" type="button"
-                  data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
-                  aria-controls="collapseTwo">
-                  How is Ztorespot.com different from other e-commerce platfor
-                </button>
-              </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body accordion-color bg-light-gray">
-                  Ztorespot.com is a DIY platform that allows anyone to create
-                  their dream online store within 5 minutes. It's an ideal
-                  solution for small and medium-scale business owners, including
-                  those running offline stores such as grocery shops, apparel
-                  stores, snack vendors, restaurants, homemade business owners,
-                  and more.
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="pricing-shadow mt-2">
-            <div class="accordion-item border-black">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed accordion-color text-white" type="button"
-                  data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
-                  aria-controls="collapseThree">
-                  Is Ztorespot.com affordable compared to other e-commerce
-                  platforms?
-                </button>
-              </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body accordion-color bg-light-gray">
-                  Ztorespot.com is a DIY platform that allows anyone to create
-                  their dream online store within 5 minutes. It's an ideal
-                  solution for small and medium-scale business owners, including
-                  those running offline stores such as grocery shops, apparel
-                  stores, snack vendors, restaurants, homemade business owners,
-                  and more.
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="pricing-shadow mt-2">
-            <div class="accordion-item border-black">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed accordion-color text-white" type="button"
-                  data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
-                  aria-controls="collapseFour">
-                  What types of businesses is Ztorespot.com suitable for?
-                </button>
-              </h2>
-              <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body accordion-color bg-light-gray">
-                  Ztorespot.com is a DIY platform that allows anyone to create
-                  their dream online store within 5 minutes. It's an ideal
-                  solution for small and medium-scale business owners, including
-                  those running offline stores such as grocery shops, apparel
-                  stores, snack vendors, restaurants, homemade business owners,
-                  and more.
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="pricing-shadow mt-2">
-            <div class="accordion-item border-black">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed accordion-color text-white" type="button"
-                  data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false"
-                  aria-controls="collapseFive">
-                  Do I need coding skills to use Ztorespot.com?
-                </button>
-              </h2>
-              <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body accordion-color bg-light-gray">
-                  Ztorespot.com is a DIY platform that allows anyone to create
-                  their dream online store within 5 minutes. It's an ideal
-                  solution for small and medium-scale business owners, including
-                  those running offline stores such as grocery shops, apparel
-                  stores, snack vendors, restaurants, homemade business owners,
-                  and more.
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="pricing-shadow mt-2">
-            <div class="accordion-item border-black">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed accordion-color text-white rounded-0" type="button"
-                  data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false"
-                  aria-controls="collapseSix">
-                  Is there a free trial available?
-                </button>
-              </h2>
-              <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body accordion-color bg-light-gray">
-                  Ztorespot.com is a DIY platform that allows anyone to create
-                  their dream online store within 5 minutes. It's an ideal
-                  solution for small and medium-scale business owners, including
-                  those running offline stores such as grocery shops, apparel
-                  stores, snack vendors, restaurants, homemade business owners,
-                  and more.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- footer  -->
-
-  <footer class="text-light pt-5 pb-4">
-    <div class="container rounded-4">
-      <div class="row">
-        <div class="col-lg-5 col-md-6 mb-4">
-          <div class="">
-            <img src="./assets/image/logo.png" alt="" />
-          </div>
-          <p class="w-75">
-            Lorem ipsum dolor sit amet consectetur commodo ultricies.
-          </p>
-          <div class="d-flex">
-            <a href="#" class="me-3 text-light"><i class="bi bi-facebook"></i></a>
-            <a href="#" class="me-3 text-light"><i class="bi bi-twitter"></i></a>
-            <a href="#" class="me-3 text-light"><i class="bi bi-instagram"></i></a>
-            <a href="#" class="text-light"><i class="bi bi-linkedin"></i></a>
-          </div>
-          <div class="my-2">
-            <i class="fa-brands fa-facebook-f me-2" style="color: #ffffff"></i>
-            <i class="fa-brands fa-twitter me-2" style="color: #ffffff"></i>
-            <i class="fa-brands fa-square-instagram me-2" style="color: #ffffff"></i>
-            <i class="fa-brands fa-linkedin-in" style="color: #ffffff"></i>
-          </div>
-          <p class="mt-2">Made In : India</p>
-        </div>
-
-        <div class="col-lg-2 col-md-6 mb-4">
-          <h5 class=" fw-semibold fs-2o">Link</h5>
-          <ul class="list-unstyled">
-            <li><a href="#" class="text-light">Banned Items</a></li>
-            <li><a href="#" class="text-light">Terms and Conditions</a></li>
-            <li><a href="#" class="text-light">Privacy Policies</a></li>
-            <li><a href="#" class="text-light">Refund Policies</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-md-6 mb-4">
-          <h5 class=" fw-semibold fs-20">Follow</h5>
-          <ul class="list-unstyled">
-            <li><a href="#" class="text-light">Facebook</a></li>
-            <li><a href="#" class="text-light">LinkedIn</a></li>
-            <li><a href="#" class="text-light">YouTube</a></li>
-            <li><a href="#" class="text-light">Tweeter</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-3 col-md-6 mb-4">
-          <h5 class="fw-semibold fs-20">Address</h5>
-          <p>
-            No 1, Sivan Kovil Street<br />
-            Needamangalam, Thiruvarur Dt,<br />
-            Tamilnadu 614404
-          </p>
-          <p>GSTIN: 33AACCC2135N1</p>
-          <p>CIN: U62099TN2023PTC161145</p>
-        </div>
-      </div>
-
-      <div class="text-center mt-4">
-        <p class="m-0">
-          © Milestone Technology Solution Private Limited. All Rights
-          Reserved, 2024.
-        </p>
-      </div>
-    </div>
-  </footer>
-
-  <!-- Bootstrap 5 JavaScript (Local) -->
-  <script src="./assets/js/bootstrap.bundle.min.js"></script>
-</body>
-
+    <!-- Bootstrap 5 JavaScript (Local) -->
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
