@@ -60,33 +60,37 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav m-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
+                  <a class="nav-link active" aria-current="page" href="/"
                     >Home</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Templates</a>
+                  <a class="nav-link" href="/#templates">Templates</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Pricing</a>
+                  <a class="nav-link" href="/#pricing">Pricing</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">FAQ</a>
+                  <a class="nav-link" href="/#faq">FAQ</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Help Videos</a>
+                  <a class="nav-link" href="/#help">Help Videos</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Contact Us</a>
+                  <a class="nav-link" href="/#contact">Contact Us</a>
                 </li>
               </ul>
               <div class="d-flex gap-2">
-                <button class="btn btn-login login-hover border-0 fw-medium">
-                  Login
-                </button>
-                <button class="btn btn-get-started border-0 fs-18 fw-normal">
-                  Get Started
-                </button>
+                <a href="#">
+                  <button class="btn btn-login login-hover border-0 fw-medium">
+                    Login
+                  </button>
+                </a>
+                <a href="#">
+                  <button class="btn btn-get-started border-0 fs-18 fw-normal">
+                    Get Started
+                  </button>
+                </a>
               </div>
             </div>
           </div>
@@ -129,6 +133,7 @@
             </div>
 
             <div
+              role="button"
               style="
                 width: fit-content;
                 background-color: #2d1836;
@@ -746,7 +751,7 @@
     </section>
 
     <!-- section six   -->
-    <section class="bg-black pt-5">
+    <section class="bg-black pt-5" id="pricing">
       <div class="container">
         <div class="row text-center justify-content-center">
           <div class="">
@@ -762,50 +767,57 @@
             class="col-lg-3 col-md-6 col-12 d-grid justify-content-center px-1"
           >
             <div class="pricing-shadow rounded-3">
-              <div class="pricing-card h-100">
-                <h4 class="mb-3">Welcome</h4>
-                <p class="fs-14 textGray" style="font-size: 13px">
-                  Start your dream online store for just ₹199/1 month with GST.
-                </p>
-                <div class="price">
-                  <h3 class="">$2,500</h3>
-                  <h6 class="d-block">Month</h6>
+              <div
+                class="pricing-card h-100 d-flex flex-column justify-content-between"
+              >
+                <div>
+                  <h4 class="mb-3">Welcome</h4>
+                  <p class="fs-14 textGray" style="font-size: 13px">
+                    Start your dream online store for just ₹199/1 month with
+                    GST.
+                  </p>
+                  <div class="price">
+                    <h3 class="">$2,500</h3>
+                    <h6 class="d-block">Month</h6>
+                  </div>
+                  <a href="./offer-page.html" class="text-white">
+                    <button class="btn btn-custom fw-medium">
+                      Get started
+                    </button>
+                  </a>
+                  <ul class="features mt-4">
+                    <li class="fs-16 textGrey">
+                      <div class="checkbox-icon">
+                        <i class="fa-solid fa-check"></i>
+                      </div>
+                      1 Online Store
+                    </li>
+                    <li class="fs-16 textGrey">
+                      <div class="checkbox-icon">
+                        <i class="fa-solid fa-check"></i>
+                      </div>
+                      30 Products
+                    </li>
+                    <li class="fs-16 textGrey">
+                      <div class="checkbox-icon">
+                        <i class="fa-solid fa-check"></i>
+                      </div>
+                      10 Categories
+                    </li>
+                    <li class="fs-16 textGrey">
+                      <div class="checkbox-icon">
+                        <i class="fa-solid fa-check"></i>
+                      </div>
+                      Unlimited Orders
+                    </li>
+                    <li class="fs-16 textGrey">
+                      <div class="checkbox-icon">
+                        <i class="fa-solid fa-check"></i>
+                      </div>
+                      Unlimited Customers
+                    </li>
+                  </ul>
                 </div>
-                <a href="./offer-page.html" class="text-white">
-                  <button class="btn btn-custom fw-medium">Get started</button>
-                </a>
-                <ul class="features mt-4">
-                  <li class="fs-16 textGrey">
-                    <div class="checkbox-icon">
-                      <i class="fa-solid fa-check"></i>
-                    </div>
-                    1 Online Store
-                  </li>
-                  <li class="fs-16 textGrey">
-                    <div class="checkbox-icon">
-                      <i class="fa-solid fa-check"></i>
-                    </div>
-                    30 Products
-                  </li>
-                  <li class="fs-16 textGrey">
-                    <div class="checkbox-icon">
-                      <i class="fa-solid fa-check"></i>
-                    </div>
-                    10 Categories
-                  </li>
-                  <li class="fs-16 textGrey">
-                    <div class="checkbox-icon">
-                      <i class="fa-solid fa-check"></i>
-                    </div>
-                    Unlimited Orders
-                  </li>
-                  <li class="fs-16 textGrey">
-                    <div class="checkbox-icon">
-                      <i class="fa-solid fa-check"></i>
-                    </div>
-                    Unlimited Customers
-                  </li>
-                </ul>
 
                 <div class="more-features">
                   <button
@@ -825,51 +837,57 @@
             class="col-lg-3 col-md-6 col-12 d-grid justify-content-center px-1"
           >
             <div class="pricing-shadow rounded-3">
-              <div class="pricing-card h-100">
-                <h4 class="mb-3">Starter Plan</h4>
-                <p class="textGray" style="font-size: 13px">
-                  Elevate Your E-commerce Journey with this Starter Plan at Just
-                  ₹799/3
-                </p>
-                <div class="price">
-                  <h3 class="">$5,500</h3>
-                  <h6 class="d-block">Month</h6>
+              <div
+                class="pricing-card h-100 d-flex flex-column justify-content-between"
+              >
+                <div>
+                  <h4 class="mb-3">Starter Plan</h4>
+                  <p class="textGray" style="font-size: 13px">
+                    Elevate Your E-commerce Journey with this Starter Plan at
+                    Just ₹799/3
+                  </p>
+                  <div class="price">
+                    <h3 class="">$5,500</h3>
+                    <h6 class="d-block">Month</h6>
+                  </div>
+                  <a href="./offer-page.html" class="text-white">
+                    <button class="btn btn-custom fw-medium">
+                      Get started
+                    </button>
+                  </a>
+                  <ul class="features mt-4">
+                    <li class="fs-14 textGrey">
+                      <div class="checkbox-icon">
+                        <i class="fa-solid fa-check"></i>
+                      </div>
+                      1 Online Store
+                    </li>
+                    <li class="fs-14 textGrey">
+                      <div class="checkbox-icon">
+                        <i class="fa-solid fa-check"></i>
+                      </div>
+                      30 Products
+                    </li>
+                    <li class="fs-14 textGrey">
+                      <div class="checkbox-icon">
+                        <i class="fa-solid fa-check"></i>
+                      </div>
+                      10 Categories
+                    </li>
+                    <li class="fs-14 textGrey">
+                      <div class="checkbox-icon">
+                        <i class="fa-solid fa-check"></i>
+                      </div>
+                      Unlimited Orders
+                    </li>
+                    <li class="fs-14 textGrey">
+                      <div class="checkbox-icon">
+                        <i class="fa-solid fa-check"></i>
+                      </div>
+                      Unlimited Customers
+                    </li>
+                  </ul>
                 </div>
-                <a href="./offer-page.html" class="text-white">
-                  <button class="btn btn-custom fw-medium">Get started</button>
-                </a>
-                <ul class="features mt-4">
-                  <li class="fs-14 textGrey">
-                    <div class="checkbox-icon">
-                      <i class="fa-solid fa-check"></i>
-                    </div>
-                    1 Online Store
-                  </li>
-                  <li class="fs-14 textGrey">
-                    <div class="checkbox-icon">
-                      <i class="fa-solid fa-check"></i>
-                    </div>
-                    30 Products
-                  </li>
-                  <li class="fs-14 textGrey">
-                    <div class="checkbox-icon">
-                      <i class="fa-solid fa-check"></i>
-                    </div>
-                    10 Categories
-                  </li>
-                  <li class="fs-14 textGrey">
-                    <div class="checkbox-icon">
-                      <i class="fa-solid fa-check"></i>
-                    </div>
-                    Unlimited Orders
-                  </li>
-                  <li class="fs-14 textGrey">
-                    <div class="checkbox-icon">
-                      <i class="fa-solid fa-check"></i>
-                    </div>
-                    Unlimited Customers
-                  </li>
-                </ul>
 
                 <div class="more-features">
                   <button
@@ -889,51 +907,57 @@
             class="col-lg-3 col-md-6 col-12 d-grid justify-content-center px-1"
           >
             <div class="pricing-shadow rounded-3">
-              <div class="pricing-card h-100">
-                <h4 class="mb-3">Intermediate</h4>
-                <p class="fs-14 textGray" style="font-size: 13px">
-                  Get Selling with Our Intermediate Plan at ₹2400 for 1 year
-                  with GST
-                </p>
-                <div class="price">
-                  <h3 class="">$10,500</h3>
-                  <h6 class="d-block">Month</h6>
+              <div
+                class="pricing-card h-100 d-flex flex-column justify-content-between"
+              >
+                <div class="">
+                  <h4 class="mb-3">Intermediate</h4>
+                  <p class="fs-14 textGray" style="font-size: 13px">
+                    Get Selling with Our Intermediate Plan at ₹2400 for 1 year
+                    with GST
+                  </p>
+                  <div class="price">
+                    <h3 class="">$10,500</h3>
+                    <h6 class="d-block">Month</h6>
+                  </div>
+                  <a href="./offer-page.html" class="text-white">
+                    <button class="btn btn-custom fw-medium">
+                      Get started
+                    </button>
+                  </a>
+                  <ul class="features mt-4">
+                    <li class="fs-16 textGrey">
+                      <div class="checkbox-icon">
+                        <i class="fa-solid fa-check"></i>
+                      </div>
+                      1 Online Store
+                    </li>
+                    <li class="fs-16 textGrey">
+                      <div class="checkbox-icon">
+                        <i class="fa-solid fa-check"></i>
+                      </div>
+                      30 Products
+                    </li>
+                    <li class="fs-16 textGrey">
+                      <div class="checkbox-icon">
+                        <i class="fa-solid fa-check"></i>
+                      </div>
+                      10 Categories
+                    </li>
+                    <li class="fs-16 textGrey">
+                      <div class="checkbox-icon">
+                        <i class="fa-solid fa-check"></i>
+                      </div>
+                      Unlimited Orders
+                    </li>
+                    <li class="fs-16 textGrey">
+                      <div class="checkbox-icon">
+                        <i class="fa-solid fa-check"></i>
+                      </div>
+                      Unlimited Customers
+                    </li>
+                  </ul>
                 </div>
-                <a href="./offer-page.html" class="text-white">
-                  <button class="btn btn-custom fw-medium">Get started</button>
-                </a>
-                <ul class="features mt-4">
-                  <li class="fs-16 textGrey">
-                    <div class="checkbox-icon">
-                      <i class="fa-solid fa-check"></i>
-                    </div>
-                    1 Online Store
-                  </li>
-                  <li class="fs-16 textGrey">
-                    <div class="checkbox-icon">
-                      <i class="fa-solid fa-check"></i>
-                    </div>
-                    30 Products
-                  </li>
-                  <li class="fs-16 textGrey">
-                    <div class="checkbox-icon">
-                      <i class="fa-solid fa-check"></i>
-                    </div>
-                    10 Categories
-                  </li>
-                  <li class="fs-16 textGrey">
-                    <div class="checkbox-icon">
-                      <i class="fa-solid fa-check"></i>
-                    </div>
-                    Unlimited Orders
-                  </li>
-                  <li class="fs-16 textGrey">
-                    <div class="checkbox-icon">
-                      <i class="fa-solid fa-check"></i>
-                    </div>
-                    Unlimited Customers
-                  </li>
-                </ul>
 
                 <div class="more-features">
                   <button
@@ -953,50 +977,56 @@
             class="col-lg-3 col-md-6 col-12 d-grid justify-content-center px-1"
           >
             <div class="pricing-shadow rounded-3">
-              <div class="pricing-card h-100">
-                <h4 class="mb-3">Professional</h4>
-                <p class="fs-14 textGray" style="font-size: 13px">
-                  Kickstart Your E-commerce Success at ₹2899 for 1 year +GST.
-                </p>
-                <div class="price">
-                  <h3 class="">$10,500</h3>
-                  <h6 class="d-block">Month</h6>
+              <div
+                class="pricing-card h-100 d-flex flex-column justify-content-between"
+              >
+                <div class="">
+                  <h4 class="mb-3">Professional</h4>
+                  <p class="fs-14 textGray" style="font-size: 13px">
+                    Kickstart Your E-commerce Success at ₹2899 for 1 year +GST.
+                  </p>
+                  <div class="price">
+                    <h3 class="">$10,500</h3>
+                    <h6 class="d-block">Month</h6>
+                  </div>
+                  <a href="./offer-page.html" class="text-white">
+                    <button class="btn btn-custom fw-medium">
+                      Get started
+                    </button>
+                  </a>
+                  <ul class="features mt-4">
+                    <li class="fs-16 textGrey">
+                      <div class="checkbox-icon">
+                        <i class="fa-solid fa-check"></i>
+                      </div>
+                      1 Online Store
+                    </li>
+                    <li class="fs-16 textGrey">
+                      <div class="checkbox-icon">
+                        <i class="fa-solid fa-check"></i>
+                      </div>
+                      30 Products
+                    </li>
+                    <li class="fs-16 textGrey">
+                      <div class="checkbox-icon">
+                        <i class="fa-solid fa-check"></i>
+                      </div>
+                      10 Categories
+                    </li>
+                    <li class="fs-16 textGrey">
+                      <div class="checkbox-icon">
+                        <i class="fa-solid fa-check"></i>
+                      </div>
+                      Unlimited Orders
+                    </li>
+                    <li class="fs-16 textGrey">
+                      <div class="checkbox-icon">
+                        <i class="fa-solid fa-check"></i>
+                      </div>
+                      Unlimited Customers
+                    </li>
+                  </ul>
                 </div>
-                <a href="./offer-page.html" class="text-white">
-                  <button class="btn btn-custom fw-medium">Get started</button>
-                </a>
-                <ul class="features mt-4">
-                  <li class="fs-16 textGrey">
-                    <div class="checkbox-icon">
-                      <i class="fa-solid fa-check"></i>
-                    </div>
-                    1 Online Store
-                  </li>
-                  <li class="fs-16 textGrey">
-                    <div class="checkbox-icon">
-                      <i class="fa-solid fa-check"></i>
-                    </div>
-                    30 Products
-                  </li>
-                  <li class="fs-16 textGrey">
-                    <div class="checkbox-icon">
-                      <i class="fa-solid fa-check"></i>
-                    </div>
-                    10 Categories
-                  </li>
-                  <li class="fs-16 textGrey">
-                    <div class="checkbox-icon">
-                      <i class="fa-solid fa-check"></i>
-                    </div>
-                    Unlimited Orders
-                  </li>
-                  <li class="fs-16 textGrey">
-                    <div class="checkbox-icon">
-                      <i class="fa-solid fa-check"></i>
-                    </div>
-                    Unlimited Customers
-                  </li>
-                </ul>
 
                 <div class="more-features">
                   <button
@@ -1189,7 +1219,7 @@
     </section>
 
     <!-- section eight  -->
-    <section class="bg-black pb-5">
+    <section class="bg-black pb-5" id="faq">
       <div class="container">
         <div class="row text-center justify-content-center">
           <div class="col-lg-7 col-md-10 col-12">

@@ -402,6 +402,7 @@ html {
 }
 
 .pricing-card:hover {
+  border-radius: 12px;
   background: linear-gradient(to top, black, rgb(54, 5, 54));
 }
 
@@ -431,9 +432,15 @@ html {
 /* sdfjlsdfs */
 /* Default background on hover */
 .pricing-shadow {
+  border-radius: 12px !important;
   padding: 1px;
   transition: all 0.5s ease-in-out;
   background: none;
+}
+
+.pricing-shadow>.accordion-item {
+  overflow: hidden;
+  border-radius: 12px !important;
 }
 
 .pricing-shadow:hover {
