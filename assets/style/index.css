@@ -1,3 +1,4 @@
+
 body {
   font-family: "Poppins", serif;
   overflow-x: hidden;
@@ -12,9 +13,6 @@ html {
 
 }
 
-* {
-  box-sizing: border-box;
-}
 
 .width-75 {
   width: 75%;
@@ -364,6 +362,9 @@ html {
 .card:hover .card-text {
   color: #fff;
 }
+.l-h{
+  line-height: 1.56;
+}
 
 /* Row and cards */
 .row.flex-nowrap {
@@ -373,13 +374,21 @@ html {
   /* Space between cards */
 }
 
+
 .card {
   flex: 0 0 22%;
   /* Make each card occupy about 22% of the container */
   /* max-width: 22%; Ensure cards don't exceed this width */
   box-sizing: border-box;
+  /* width: 16.7rem; */
   /* Include padding/border in the width */
   /* width: 16.7rem; */
+}
+.width{
+    width: 16.7rem !important;
+    box-sizing: border-box;
+
+
 }
 
 /* section five  */
@@ -397,7 +406,7 @@ html {
   color: white;
   border-radius: 8px;
   padding: 20px;
-  /* max-width: 300px; */
+  max-width: 400px;
   /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
 }
 
@@ -435,7 +444,7 @@ html {
   border-radius: 12px !important;
   padding: 1px;
   transition: all 0.5s ease-in-out;
-  background: none;
+  background: rgb(36, 35, 35);
 }
 
 .pricing-shadow>.accordion-item {
@@ -517,7 +526,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .more-features .btn {
