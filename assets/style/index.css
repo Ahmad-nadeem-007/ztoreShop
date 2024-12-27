@@ -122,18 +122,19 @@ html {
 .login-hover:hover {
   background: linear-gradient(80deg,
       rgba(42, 13, 45, 1) 0%,
-      rgba(214, 11, 222, 1) 45%);
+      rgba(214, 11, 222, 1) 45%) !important;
   transition: all 0.5s ease-in-out;
   border-radius: 50px;
   padding: 10px 23px;
 }
 
 .btn-started:hover {
-  background-color: rgb(68, 66, 66);
+  background-color: rgb(68, 66, 66) !important;
   border-radius: 50px;
   padding: 10px 23px;
   color: white;
 }
+
 
 .btn-get-started-shop {
   background-color: rgb(68, 66, 66);
@@ -162,16 +163,15 @@ html {
 .btn-get-started {
   background: linear-gradient(80deg,
       rgba(42, 13, 45, 1) 0%,
-      rgba(214, 11, 222, 1) 45%);
-  color: white !important;
+      rgba(214, 11, 222, 1) 45%) ;
+  color: white;
   border-radius: 50px;
   padding: 10px 23px;
 }
 
 .btn-get-started:hover {
-  background: linear-gradient(80deg,
-      rgba(42, 13, 45, 1) 0%,
-      rgba(214, 11, 222, 1) 45%);
+  background: #343a40b3 ;
+  transition: all 0.5s ease-in-out;
   border-radius: 50px;
   padding: 10px 23px;
   color: white;
