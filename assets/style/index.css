@@ -1,4 +1,3 @@
-
 body {
   font-family: "Poppins", serif;
   overflow-x: hidden;
@@ -163,14 +162,14 @@ html {
 .btn-get-started {
   background: linear-gradient(80deg,
       rgba(42, 13, 45, 1) 0%,
-      rgba(214, 11, 222, 1) 45%) ;
+      rgba(214, 11, 222, 1) 45%);
   color: white;
   border-radius: 50px;
   padding: 10px 23px;
 }
 
 .btn-get-started:hover {
-  background: #343a40b3 ;
+  background: #343a40b3;
   transition: all 0.5s ease-in-out;
   border-radius: 50px;
   padding: 10px 23px;
@@ -291,15 +290,26 @@ html {
       rgba(214, 11, 222, 1) 45%);
 }
 
-.business-card .img-animation>div {
+/* .business-card .img-animation>div {
   height: 270px;
   overflow: hidden;
   border-radius: 20px;
+} */
+
+.business-card .img-animation {
+  background-size: cover;
+  background-position: left top;
+  background-repeat: no-repeat;
+  height: 350px;
+  transition: ease-in-out 5s;
+  border-radius: 25px;
+  /* Smooth animation added */
 }
 
-.business-card .img-animation img {
-  height: 300px;
-  transition: transform 0.5s ease-in-out;
+.business-card .img-animation:hover {
+
+  background-position: left bottom;
+
   /* Smooth animation added */
 }
 
@@ -312,10 +322,7 @@ html {
   padding: 10px 23px;
 }
 
-.business-card:hover .img-animation img {
-  transform: translateY(-30px);
-  /* Image scroll effect */
-}
+
 
 /* section three  */
 .bg-light-gray {
@@ -362,7 +369,8 @@ html {
 .card:hover .card-text {
   color: #fff;
 }
-.l-h{
+
+.l-h {
   line-height: 1.56;
 }
 
@@ -384,9 +392,10 @@ html {
   /* Include padding/border in the width */
   /* width: 16.7rem; */
 }
-.width{
-    width: 16.7rem !important;
-    box-sizing: border-box;
+
+.width {
+  width: 16.7rem !important;
+  box-sizing: border-box;
 
 
 }
@@ -705,6 +714,27 @@ footer .container {
   background: linear-gradient(80deg,
       rgba(42, 13, 45, 1) 0%,
       rgba(214, 11, 222, 1) 45%);
+}
+
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25D366;
+  color: white;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.whatsapp-button img {
+  width: 40px;
+  height: 40px;
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
