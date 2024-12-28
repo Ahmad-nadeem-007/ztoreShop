@@ -140,6 +140,7 @@ html {
   border-radius: 50px;
   padding: 10px 23px;
   color: white;
+  font-size: 14px;
 }
 
 .shop-hover:hover {
@@ -272,6 +273,7 @@ html {
 .business-card {
   background: #363636;
   padding: 3px;
+  border-radius: 25px !important;
 }
 
 .business-card img {
@@ -302,7 +304,7 @@ html {
   background-repeat: no-repeat;
   height: 350px;
   transition: ease-in-out 5s;
-  border-radius: 25px;
+  border-radius: 25px !important;
   /* Smooth animation added */
 }
 
@@ -322,11 +324,19 @@ html {
   padding: 10px 23px;
 }
 
-
+.bg-img {
+  background-image: url("../image/footerBg.png") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 
 /* section three  */
 .bg-light-gray {
   color: #a8aebf;
+}
+.bg-blackrounded{
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .bg-section-three {
@@ -384,7 +394,7 @@ html {
 
 
 .card {
-  flex: 0 0 22%;
+  /* flex: 0 0 22%; */
   /* Make each card occupy about 22% of the container */
   /* max-width: 22%; Ensure cards don't exceed this width */
   box-sizing: border-box;
@@ -393,12 +403,13 @@ html {
   /* width: 16.7rem; */
 }
 
-.width {
+/* .width-card {
   width: 16.7rem !important;
   box-sizing: border-box;
+  height: 16.3rem !important;
 
 
-}
+} */
 
 /* section five  */
 .bg-color-change {
@@ -439,8 +450,13 @@ html {
     rgb(16, 2, 95) 
   );
 } */
-.pricing-shadow-no-hover {
-  padding: 2px;
+.pricing-shadow-no-hover{
+  background:rgb(45, 45, 45) ;
+  padding: 1px;
+  border-radius: 8px;
+}
+.pricing-shadow-no-hover:hover {
+  padding: 1px;
   border-radius: 8px;
   background: linear-gradient(to right,
       rgb(84, 2, 100),
@@ -453,7 +469,7 @@ html {
   border-radius: 12px !important;
   padding: 1px;
   transition: all 0.5s ease-in-out;
-  background: rgb(36, 35, 35);
+  /* background: rgb(36, 35, 35); */
 }
 
 .pricing-shadow>.accordion-item {
@@ -529,6 +545,7 @@ html {
 
 .btn-custom:hover {
   background: linear-gradient(97.2deg, #330166 -30.23%, #d60bde 94.45%);
+  color: white !important;
 }
 
 .more-features {
@@ -536,12 +553,12 @@ html {
   justify-content: center;
   align-items: center;
   margin-top: 5px;
+  width: 100%;
 }
 
 .more-features .btn {
   color: white;
-  display: inline-flex;
-  align-items: center;
+ gap: 12px !important;
   border: 1px solid rgb(91, 89, 89);
 }
 
@@ -653,13 +670,6 @@ html {
 
 /* footer  */
 
-footer {
-  background-image: url(../image/footer.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
 footer a {
   text-decoration: none;
 }
@@ -676,7 +686,7 @@ footer p {
 }
 
 footer .container {
-  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  /* box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px; */
   padding: 32px;
 }
 
@@ -736,7 +746,10 @@ footer .container {
   width: 40px;
   height: 40px;
 }
+.swiper-button-next::after,.swiper-button-prev::after{
+  display: none;
 
+}
 @media screen and (min-width: 992px) and (max-width: 1200px) {
   .btn-get-started {
     padding: 10px 17px;
@@ -912,3 +925,4 @@ footer .container {
     -ms-transform: translate(1px, 22px);
   }
 }
+
