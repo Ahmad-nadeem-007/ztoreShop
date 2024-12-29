@@ -1,5 +1,5 @@
 body {
-  font-family: "Poppins", serif;
+  font-family: "Plus Jakarta Sans", serif;
   overflow-x: hidden;
   padding: 0 !important;
   margin: 0 !important;
@@ -86,7 +86,7 @@ html {
 }
 
 .text-size {
-  font-size: 64px;
+  font-size: 65px;
 }
 
 .navbar-brand {
@@ -106,7 +106,15 @@ html {
   color: var(--Primary-P6---BASE, #d60bde);
 }
 
-.active {
+.navbar-nav .nav-item {
+  margin-inline: 5px;
+}
+
+.navbar-nav .nav-link {
+  font-weight: 500;
+}
+
+.navbar-nav .active {
   color: var(--Primary-P6---BASE, #d60bde) !important;
 }
 
@@ -171,7 +179,7 @@ html {
 
 .btn-get-started:hover {
   background: #343a40b3;
-  transition: all 0.5s ease-in-out;
+  /* transition: all 0.5s ease-in-out; */
   border-radius: 50px;
   padding: 10px 23px;
   color: white;
@@ -325,7 +333,7 @@ html {
 }
 
 .bg-img {
-  background-image: url("../image/footerBg.png") ;
+  background-image: url("../image/footerBg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -333,9 +341,10 @@ html {
 
 /* section three  */
 .bg-light-gray {
-  color: #a8aebf;
+  color: #767C8C;
 }
-.bg-blackrounded{
+
+.bg-blackrounded {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
@@ -351,6 +360,8 @@ html {
   transition: transform 0.5s ease-in-out;
   background-color: #1f1f1f;
   padding: 25px 20px !important;
+  min-height: 205px;
+  max-height: 280px;
 }
 
 .bg-card-color p {
@@ -435,6 +446,15 @@ html {
   background: linear-gradient(to top, black, rgb(54, 5, 54));
 }
 
+.pricing-shadow a:last-child button {
+  font-size: 14px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
 /* .pricing-shadow{
   border-radius: 8px;
   padding: 2px;
@@ -450,11 +470,12 @@ html {
     rgb(16, 2, 95) 
   );
 } */
-.pricing-shadow-no-hover{
-  background:rgb(45, 45, 45) ;
+.pricing-shadow-no-hover {
+  background: rgb(45, 45, 45);
   padding: 1px;
   border-radius: 8px;
 }
+
 .pricing-shadow-no-hover:hover {
   padding: 1px;
   border-radius: 8px;
@@ -558,7 +579,7 @@ html {
 
 .more-features .btn {
   color: white;
- gap: 12px !important;
+  gap: 12px !important;
   border: 1px solid rgb(91, 89, 89);
 }
 
@@ -606,6 +627,10 @@ html {
   font-size: 1rem;
   font-weight: semibold;
   margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 250px;
 }
 
 .testimonial-card .profile-info .title {
@@ -618,10 +643,13 @@ html {
 }
 
 .testimonial-card .testimonial-text {
-  font-size: 0.9rem;
-  color: #d3d3d3;
+  font-size: 0.8rem;
+  color: #A8AEBF;
   margin-top: 15px;
+  margin-bottom: 0px;
   line-height: 1.5;
+  min-height: 75px;
+  max-height: 100px;
 }
 
 /* section eight  */
@@ -716,7 +744,7 @@ footer .container {
 }
 
 .btn-top {
-  transform: translateY(-32px);
+  transform: translateY(-13px);
 }
 
 .offer-shadow:hover {
@@ -746,10 +774,22 @@ footer .container {
   width: 40px;
   height: 40px;
 }
-.swiper-button-next::after,.swiper-button-prev::after{
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
   display: none;
 
 }
+
+.swiper-button-next,
+.swiper-button-prev {
+  width: 45px !important;
+  height: 45px;
+  font-size: 22px;
+  border-color: #2b2b2b !important;
+
+}
+
 @media screen and (min-width: 992px) and (max-width: 1200px) {
   .btn-get-started {
     padding: 10px 17px;
@@ -925,4 +965,3 @@ footer .container {
     -ms-transform: translate(1px, 22px);
   }
 }
-
