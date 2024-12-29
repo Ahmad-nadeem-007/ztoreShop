@@ -345,7 +345,10 @@ html {
 }
 
 .bg-blackrounded {
-  background-color: rgba(0, 0, 0, 0.3);
+  /* background-color: rgba(0, 0, 0, 0.3); */
+  background-image: url('https://via.placeholder.com/300');
+  background-size: cover;
+  background-position: center;
 }
 
 .bg-section-three {
