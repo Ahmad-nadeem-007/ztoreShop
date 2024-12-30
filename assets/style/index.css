@@ -258,7 +258,6 @@ html {
 
 .paragraf-width p {
   color: #a8aebf;
-  font-size: 18px;
   font-weight: 400;
 }
 
@@ -796,10 +795,14 @@ footer .container {
   }
 }
 
-@media screen and (max-width: 767px) {
-  .paragraf-width p {
-    font-size: 11px;
+@media screen and (max-width: 576px) { 
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none !important; 
   }
+}
+
+@media screen and (max-width: 767px) {
 
   .text-size {
     font-size: 30px;
